@@ -80,12 +80,14 @@ def generate_patient_donor_pair():
             if pra_ran <= running_sum:
                 pra = pra_intervals[i_c]
                 break
+        if not pra:
+            pra = pra_intervals[-1]
         
         # Generate virtual pra of donor
-        virtual_pra = random.random() * pra   # uniform between 0 and pra of patient
+        virtual_pra = random.random() # uniform between 0 and 1
         
         # If virtual_pra is not less than pra, then we need to redraw
-        if not (virtual_pra < pra):
+        if not (virtual_pra < pra) and BloodType.can_donor_donate_to_patient(abo_pair[1], abo_pair[0]):
             continue
 
         # Return the patient and donor pair
