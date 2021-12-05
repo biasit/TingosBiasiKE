@@ -3,7 +3,7 @@ from pulp import LpProblem, LpVariable, LpMaximize, value, lpSum, lpDot
 from patient_donor_pairs import generate_patient_donor_pair
 
 # generate patient-donor pairs
-number_of_pairs = 5000
+number_of_pairs = 500
 all_pairs = []
 for i in range(number_of_pairs):
     all_pairs.append(generate_patient_donor_pair())
@@ -71,7 +71,7 @@ def find_cycles(pairs):
 
 def solve_kidney_matching(pairs):
     # get cycles
-    cycles = find_cycles(all_pairs)
+    cycles = find_cycles(pairs)
 
     # initialize problem
     problem = LpProblem('kidney_matching', LpMaximize)

@@ -53,6 +53,14 @@ class Donor():
     def is_compatible_with_patient(self, patient):
         return BloodType.can_donor_donate_to_patient(self.blood_type, patient.blood_type) and (self.virtual_pra > patient.pra)
 
+class Pair():
+    def __init__(self, patient, donor):
+        self.patient = patient
+        self.donor = donor
+
+        # Statistics for a particular pair for simulation purposes
+        self.arrival_time = -1
+        self.departure_time = -1
 
 # A function for generating a new patient and donor pair
 def generate_patient_donor_pair():
