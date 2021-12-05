@@ -24,9 +24,10 @@ class ExponentialDistribution():
 
 
 class DynamicSimulator():
-    def __init__(self, arrival_rate, survival_rate):
+    def __init__(self, arrival_rate, survival_rate, matching_algorithm):
         self.arrival_rate = arrival_rate           # Poisson(arrival_rate) number of pairs arriving every time period
         self.survival_rate = survival_rate         # Exp(survival_rate) - lifespan of a pair in the donor pool
+        self.matching_algorithm = matching_algorithm
 
         self.arrival_generator = ExponentialDistribution(self.arrival_rate)
         self.survival_generator = ExponentialDistribution(self.survival_rate)
@@ -63,7 +64,8 @@ class DynamicSimulator():
         # Track the current state of the pool
         pool = set()
         vertices_by_exit_time = []  # this will be a priority queue of tuples (exit_time, (Patient, Donor) pair)
-
+        all_matched_pairs = set()
+        all_exited_pairs = set()
 
         # General statistics about the process
         total_matched = 0
@@ -85,7 +87,9 @@ class DynamicSimulator():
                 if critical_vertex not in pool:
                     continue
                 else:
-                    pool.remove(critical_vertex)   # for now, just remove from pool, we will want to probably match these though (can discusses this)
+                    pool.remove(critical_vertex)   # for now, just remove from pool, we will want to probably match these though (can discuss this)
+                    all_exited_pairs.add(critical_vertex)
+                    total_expired += 1
             
             # If no new vertices to enter, we are finished!
             if next_entry_time == float('inf'):
@@ -107,17 +111,38 @@ class DynamicSimulator():
             new_pairs = set()
             for i in range(new_arrivals):
                 curr_pair = generate_patient_donor_pair()
-                
+                curr_pair.arrival_time = curr_time 
 
-                
+                # Obtain departure time for pair
+                departure_time = departure_times.popleft()
+                curr_pair.departure_time = departure_time
 
+                # track when it will be leaving the simulation
+                vertices_by_exit_time.add((departure_time, curr_pair))
 
+                new_pairs.add(curr_pair)
 
+            # Match the new vertices
+            matched_pairs = self.matching_algorithm(new_pairs, pool)
 
+            # Add the new vertices to the pool
+            pool += new_pairs
 
+            # Remove any matched pairs
+            for pair in matched_pairs:
+                pool.remove(pair)
+                all_matched_pairs.append(pair)
 
-        # The state of our pool
-        unmatched_pairs = set()
-        matched_pairs = set()
+            # Update stats
+            total_matched += len(matched_pairs)
+    
+        print()
+        print("RESULTS")
+        print("Total matched:", total_matched)
+        print("Total seen:", total_seen)
+        print("Total expired:", total_expired)
+
+        return all_matched_pairs, all_exited_pairs
+
 
 
