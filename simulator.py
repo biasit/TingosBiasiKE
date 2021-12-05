@@ -8,7 +8,7 @@ But it was written in Java, and it didn't account for altruistic donors.
 
 from collections import deque # deques are always nice, hopefully will provide a slight speed up
 import heapq                  # just priority queue functionality, will allow us to order patients
-from random import random
+import random
 import math
 
 from patient_donor_pairs import generate_patient_donor_pair
@@ -44,7 +44,6 @@ class DynamicSimulator():
         # Preload the arrival times, departure times
         arrival_times = deque()
         departure_times = deque()
-        last_exit_time = -1.0
 
         curr_time = 0.0
         while True:
@@ -65,7 +64,7 @@ class DynamicSimulator():
         pool = set()
         vertices_by_exit_time = []  # this will be a priority queue of tuples (exit_time, (Patient, Donor) pair)
         all_matched_pairs = set()
-        all_exited_pairs = set()
+        all_expired_pairs = set()
 
         # General statistics about the process
         total_matched = 0
@@ -75,7 +74,7 @@ class DynamicSimulator():
         # Simulate everything!
         curr_time = 0.0 
         while True:
-            # Remove vertices between the current time and the next entry time - at the moment these go unmatched, we can change this...
+            # Remove vertices between the current time and the next entry time - these go unmatched for now, we can change this...
             if len(arrival_times) == 0:
                 next_entry_time = float('inf')
             else:
@@ -88,11 +87,11 @@ class DynamicSimulator():
                     continue
                 else:
                     pool.remove(critical_vertex)   # for now, just remove from pool, we will want to probably match these though (can discuss this)
-                    all_exited_pairs.add(critical_vertex)
+                    all_expired_pairs.add(critical_vertex)
                     total_expired += 1
             
             # If no new vertices to enter, we are finished!
-            if next_entry_time == float('inf'):
+            if len(arrival_times) == 0:
                 break
 
             # Otherwise, simulate arrivals
@@ -109,7 +108,7 @@ class DynamicSimulator():
 
             # Generate the new vertices
             new_pairs = set()
-            for i in range(new_arrivals):
+            for _ in range(new_arrivals):
                 curr_pair = generate_patient_donor_pair()
                 curr_pair.arrival_time = curr_time 
 
@@ -118,7 +117,7 @@ class DynamicSimulator():
                 curr_pair.departure_time = departure_time
 
                 # track when it will be leaving the simulation
-                vertices_by_exit_time.add((departure_time, curr_pair))
+                heapq.heappush(vertices_by_exit_time, (departure_time, curr_pair))
 
                 new_pairs.add(curr_pair)
 
@@ -126,12 +125,12 @@ class DynamicSimulator():
             matched_pairs = self.matching_algorithm(new_pairs, pool)
 
             # Add the new vertices to the pool
-            pool += new_pairs
+            pool |= new_pairs
 
             # Remove any matched pairs
             for pair in matched_pairs:
                 pool.remove(pair)
-                all_matched_pairs.append(pair)
+                all_matched_pairs.add(pair)
 
             # Update stats
             total_matched += len(matched_pairs)
@@ -142,7 +141,15 @@ class DynamicSimulator():
         print("Total seen:", total_seen)
         print("Total expired:", total_expired)
 
-        return all_matched_pairs, all_exited_pairs
+        return all_matched_pairs, all_expired_pairs
 
 
 
+# Example usage of simulator
+def matching_algorithm(new_pairs, pool):
+    new_pool = pool | new_pairs
+
+    return [random.choice(list(new_pool))]
+
+simulator = DynamicSimulator(100, 1, matching_algorithm)
+m_pairs, e_pairs = simulator.run(100)
