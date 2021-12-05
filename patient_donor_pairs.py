@@ -39,20 +39,40 @@ class Patient():
     def __init__(self, blood_type, pra):
         self.blood_type = blood_type
         self.pra = pra
+        self.potential = self.get_potential(self.blood_type)
     
     # Donor's virtual pra must be higher than the patient's PRA to be compatible - reflects tissue-type compatibility
     def is_compatible_with_donor(self, donor):
         return BloodType.can_donor_donate_to_patient(donor.blood_type, self.blood_type) and (donor.virtual_pra > self.pra)
 
+    # 
+    def get_potential(self, blood_type):
+        blood_type_to_potential = {
+            BloodType.O: .1,
+            BloodType.A: .3,
+            BloodType.B: .3,
+            BloodType.AB: .6
+        }
+        return blood_type_to_potential[blood_type]
+
 class Donor():
     def __init__(self, blood_type, virtual_pra):
         self.blood_type = blood_type
         self.virtual_pra = virtual_pra
+        self.potential = self.get_potential(self.blood_type)
     
     # Once again, Donor's virtual pra must be higher than the patient's PRA to be compatible
     def is_compatible_with_patient(self, patient):
         return BloodType.can_donor_donate_to_patient(self.blood_type, patient.blood_type) and (self.virtual_pra > patient.pra)
 
+    def get_potential(self, blood_type):
+        blood_type_to_potential = {
+            BloodType.O: .6,
+            BloodType.A: .3,
+            BloodType.B: .3,
+            BloodType.AB: .1
+        }
+        return blood_type_to_potential[blood_type]
 
 # A function for generating a new patient and donor pair
 def generate_patient_donor_pair():
