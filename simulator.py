@@ -12,6 +12,7 @@ import heapq                  # just priority queue functionality, will allow us
 import random
 import math
 from enum import Enum
+import time
 
 from patient_donor_pairs import generate_patient_donor_pair, generate_altruistic_donor, Donor, Pair
 from solver import solve_kidney_matching
@@ -52,6 +53,8 @@ class DynamicSimulator():
 
             time_limit: how long to run the simulation for (this many time periods)
         """
+        start_time = time.time()
+
         entry_count = 0               # heapq breaks without the entry_count for ties
 
         print("Simulator Starting")
@@ -268,6 +271,10 @@ class DynamicSimulator():
         print("Total altruists matched:", total_altruists_matched)
         print("Total altruists seen:", total_altruists_seen)
         print("Total altruists expired:", total_altruists_expired)
+
+        end_time = time.time()
+        print()
+        print(f"Total time of simulation: {round((end_time - start_time) / 60, 3)} minutes")
 
         return all_matched_pairs, all_expired_pairs, all_matched_altruists, all_expired_altruists
 
