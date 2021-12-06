@@ -1,5 +1,6 @@
 from pulp import LpProblem, LpVariable, LpMaximize, value, lpSum, lpDot
 from enum import Enum
+from math import sqrt
 
 from patient_donor_pairs import generate_patient_donor_pair
 
@@ -30,15 +31,16 @@ class Chain:
 
 # graph data structure
 class Graph:
-    def __init__(self, pairs, problem_type, altruistic_donors=[]):
+    def __init__(self, pairs, altruistic_donors, problem_type, curr_time):
         self.pairs = pairs
         self.edges = Graph.find_edges(self.pairs)
         self.cycles = Graph.find_cycles(self.pairs, self.edges)
         self.problem_type = problem_type
-        self.cycle_weights = Graph.find_cycle_weights(self.problem_type, self.pairs, self.cycles)
+        self.curr_time = curr_time
+        self.cycle_weights = Graph.find_cycle_weights(self.problem_type, self.pairs, self.cycles, self.curr_time)
         self.altruistic_donors = altruistic_donors
         self.chains = Graph.find_chains(self.altruistic_donors, self.pairs, self.edges)
-        self.chain_weights = Graph.find_chain_weights(self.problem_type, self.pairs, self.chains)
+        self.chain_weights = Graph.find_chain_weights(self.problem_type, self.pairs, self.altruistic_donors, self.chains, self.curr_time)
 
     # create adjacency list representation of graph of pairs
     def find_edges(pairs):
@@ -55,54 +57,46 @@ class Graph:
 
     # find all 2 and 3 cycles for graph of pairs
     def find_cycles(pairs, edges):
-        cycles = []
+        cycles = set()
 
-        # vars for finding 3-cycles
-        unexplored = 0
-        explored = 1
-        done = 2
-        status = [unexplored for _ in range(len(pairs))]
-        parent = {}
-
-        # dfs to find 3-cycles
-        def dfs(u):
-            if status[u] == done:
-                return
-
-            status[u] = explored
-            for v in edges[u]:
-                # Back edge
-                if status[v] == explored and not parent[u] == v:
-                    if parent[parent[u]] == v: 
-                        cycles.append(Cycle([u, v, parent[u]]))
-                # v unseen
-                elif status[v] == unexplored:
-                    parent[v] = u
-                    dfs(v)      
-            status[u] = done
-
-        # find all 3-cycles
-        for i in range(len(pairs)):
-            dfs(i)
-
-        # find all 2-cycles
         for i in range(len(pairs)):
             for j in range(i+1, len(pairs)):
+                # checks for 2-cycles
                 if j in edges[i] and i in edges[j]: 
-                    c = Cycle([i, j])
-                    cycles.append(c)
+                    cycles.add((i, j))
+
+                # check for 3-cycles in one direction
+                if j in edges[i]:
+                    for k in range(len(pairs)):
+                        if k in edges[j] and i in edges[k]:
+                            c = [i, j, k]
+                            ind = c.index(min(c))
+                            c = c[ind:] + c[:ind]
+                            cycles.add(tuple(c))
+
+                # check for 3-cycles in other direction
+                if i in edges[j]:
+                    for k in range(len(pairs)):
+                        if k in edges[i] and j in edges[k]:
+                            c = [j, i, k]
+                            ind = c.index(min(c))
+                            c = c[ind:] + c[:ind]
+                            cycles.add(tuple(c))
+
+        cycles = list(cycles)
+        cycles = [Cycle(list(c)) for c in cycles]
 
         print(f'Number of Cycles in Graph: {len(cycles)}')
         return cycles
 
     # function that establishes the optimization weights for each cycle based on the problem type
-    def find_cycle_weights(problem_type, pairs, cycles):
+    def find_cycle_weights(problem_type, pairs, cycles, curr_time):
         if problem_type == ProblemType.SIMPLE: # if simple, weights are size of the cycle
             return [c.size for c in cycles]
         elif problem_type == ProblemType.POTENTIALS: # if potentials, weights are size of cycle minus potential of each vertex in cycle
             return [c.size - sum([pairs[p].patient.potential + pairs[p].donor.potential for p in c.pairs]) for c in cycles]
-        elif problem_type == ProblemType.FAIRNESS: # if fairness, ... TODO
-            return [c.size for c in cycles] # change once fairness is established
+        elif problem_type == ProblemType.FAIRNESS: # if fairness, weights take into account waiting time and time before departure
+            return [1 + sum([sqrt(curr_time - pairs[p].arrival_time) + max(0, 10 - (pairs[p].departure_time - curr_time)) for p in c.pairs]) for c in cycles]
 
     # function that finds all the chains in a graph from a given list of altruistic donors
     def find_chains(altruistic_donors, pairs, edges):
@@ -136,17 +130,17 @@ class Graph:
         print(f'Number of Chains in Graph: {len(chains)}')
         return chains
 
-    def find_chain_weights(problem_type, pairs, chains):
+    def find_chain_weights(problem_type, pairs, altruistic_donors, chains, curr_time):
         if problem_type == ProblemType.SIMPLE: # if simple, weights are size of the cycle
             return [c.size for c in chains]
         elif problem_type == ProblemType.POTENTIALS: # if potentials, weights are size of chain minus potential of each vertex in cycle and minus potential of donor * constant
-            return [c.size - sum([pairs[p][0].potential + pairs[p][1].potential for p in c.pairs]) - 3*c.altruistic_donor.potential for c in chains]
-        elif problem_type == ProblemType.FAIRNESS: # if fairness, ... TODO
-            return [c.size for c in chains] # change once fairness is established
+            return [c.size - sum([pairs[p].patient.potential + pairs[p].donor.potential for p in c.pairs]) - 3*altruistic_donors[c.altruistic_donor].potential for c in chains]
+        elif problem_type == ProblemType.FAIRNESS: # if fairness, weights take into account waiting time and time before departure
+            return [1 + sum([sqrt(curr_time - pairs[p].arrival_time) + max(0, 10 - (pairs[p].departure_time - curr_time)) for p in c.pairs]) for c in chains]
 
-def solve_kidney_matching(pairs, problem_type, altruistic_donors = []):
+def solve_kidney_matching(pairs, altruistic_donors, problem_type, curr_time):
     # construct graph
-    graph = Graph(pairs, problem_type, altruistic_donors)
+    graph = Graph(pairs, altruistic_donors, problem_type, curr_time)
 
     # get cycles and chains
     cycles = graph.cycles
@@ -207,7 +201,7 @@ def solve_kidney_matching(pairs, problem_type, altruistic_donors = []):
 
     return matched, used_altruistic_donors
 
-solve_kidney_matching(all_pairs, ProblemType.SIMPLE, altruistic_donors=[generate_patient_donor_pair().donor for _ in range(5)])
+solve_kidney_matching(all_pairs, [generate_patient_donor_pair().donor for _ in range(5)], ProblemType.FAIRNESS, 5)
 
 ### code for greedy approach 
 # def greedy_solve_kidney_matching(new_pair, existing_pairs, problem_type):
