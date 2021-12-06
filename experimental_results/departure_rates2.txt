@@ -1,0 +1,2749 @@
+Generating NKR Pool Composition
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.501 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 235
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1368
+Proportion of Pairs Matched: 0.116
+Proportion of Pairs Expired: 0.674
+Proportion of Pairs Left At End: 0.211
+Pair Average Wait Time: 1.17
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.116
+Proportion with PRA > 0.2 Matched: 0.104
+Proportion with PRA > 0.4 Matched: 0.068
+Proportion with PRA > 0.6 Matched: 0.068
+Proportion with PRA > 0.8 Matched: 0.034
+Proportion with PRA > 0.9 Matched: 0.005
+Proportion of Type O Matched: 0.076
+Proportion of Type A Matched: 0.172
+Proportion of Type B Matched: 0.179
+Proportion of Type AB Matched: 0.156
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.054
+Proportion with expiration 0.25 Matched: 0.05
+Proportion with expiration 0.5 Matched: 0.078
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.406 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 177
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1313
+Proportion of Pairs Matched: 0.092
+Proportion of Pairs Expired: 0.685
+Proportion of Pairs Left At End: 0.223
+Pair Average Wait Time: 1.083
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.092
+Proportion with PRA > 0.2 Matched: 0.081
+Proportion with PRA > 0.4 Matched: 0.051
+Proportion with PRA > 0.6 Matched: 0.051
+Proportion with PRA > 0.8 Matched: 0.03
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.053
+Proportion of Type A Matched: 0.149
+Proportion of Type B Matched: 0.145
+Proportion of Type AB Matched: 0.159
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.025
+Proportion with expiration 0.25 Matched: 0.071
+Proportion with expiration 0.5 Matched: 0.057
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.443 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 204
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1310
+Proportion of Pairs Matched: 0.103
+Proportion of Pairs Expired: 0.66
+Proportion of Pairs Left At End: 0.238
+Pair Average Wait Time: 1.079
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.103
+Proportion with PRA > 0.2 Matched: 0.093
+Proportion with PRA > 0.4 Matched: 0.059
+Proportion with PRA > 0.6 Matched: 0.059
+Proportion with PRA > 0.8 Matched: 0.033
+Proportion with PRA > 0.9 Matched: 0.01
+Proportion of Type O Matched: 0.062
+Proportion of Type A Matched: 0.167
+Proportion of Type B Matched: 0.165
+Proportion of Type AB Matched: 0.073
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.031
+Proportion with expiration 0.25 Matched: 0.014
+Proportion with expiration 0.5 Matched: 0.039
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.381 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 205
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1269
+Proportion of Pairs Matched: 0.109
+Proportion of Pairs Expired: 0.672
+Proportion of Pairs Left At End: 0.219
+Pair Average Wait Time: 1.195
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.109
+Proportion with PRA > 0.2 Matched: 0.091
+Proportion with PRA > 0.4 Matched: 0.058
+Proportion with PRA > 0.6 Matched: 0.058
+Proportion with PRA > 0.8 Matched: 0.027
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.067
+Proportion of Type A Matched: 0.152
+Proportion of Type B Matched: 0.165
+Proportion of Type AB Matched: 0.234
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.026
+Proportion with expiration 0.25 Matched: 0.043
+Proportion with expiration 0.5 Matched: 0.063
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.456 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 234
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1341
+Proportion of Pairs Matched: 0.118
+Proportion of Pairs Expired: 0.676
+Proportion of Pairs Left At End: 0.206
+Pair Average Wait Time: 1.026
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.118
+Proportion with PRA > 0.2 Matched: 0.106
+Proportion with PRA > 0.4 Matched: 0.074
+Proportion with PRA > 0.6 Matched: 0.074
+Proportion with PRA > 0.8 Matched: 0.04
+Proportion with PRA > 0.9 Matched: 0.011
+Proportion of Type O Matched: 0.077
+Proportion of Type A Matched: 0.174
+Proportion of Type B Matched: 0.16
+Proportion of Type AB Matched: 0.256
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.032
+Proportion with expiration 0.5 Matched: 0.043
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.2
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 10
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 211.0
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1320.2
+Average Proportion of Pairs Matched: 0.1075
+Average Proportion of Pairs Expired: 0.6733
+Average Proportion of Pairs Left At End: 0.2192
+Average Pair Average Wait Time: 1.1106
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.1075
+Average Proportion with PRA > 0.2 Matched: 0.0951
+Average Proportion with PRA > 0.4 Matched: 0.0622
+Average Proportion with PRA > 0.6 Matched: 0.0622
+Average Proportion with PRA > 0.8 Matched: 0.0329
+Average Proportion with PRA > 0.9 Matched: 0.0076
+Average Proportion of Type O Matched: 0.0669
+Average Proportion of Type A Matched: 0.1627
+Average Proportion of Type B Matched: 0.1629
+Average Proportion of Type AB Matched: 0.1756
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0
+Average Proportion with expiration 0.1 Matched: 0.0272
+Average Proportion with expiration 0.25 Matched: 0.0422
+Average Proportion with expiration 0.5 Matched: 0.056
+
+Total Time for Experiment: 2.188 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.106 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 189
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1705
+Proportion of Pairs Matched: 0.093
+Proportion of Pairs Expired: 0.839
+Proportion of Pairs Left At End: 0.067
+Pair Average Wait Time: 0.495
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.093
+Proportion with PRA > 0.2 Matched: 0.082
+Proportion with PRA > 0.4 Matched: 0.053
+Proportion with PRA > 0.6 Matched: 0.053
+Proportion with PRA > 0.8 Matched: 0.027
+Proportion with PRA > 0.9 Matched: 0.002
+Proportion of Type O Matched: 0.057
+Proportion of Type A Matched: 0.143
+Proportion of Type B Matched: 0.149
+Proportion of Type AB Matched: 0.156
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.037
+Proportion with expiration 0.1 Matched: 0.034
+Proportion with expiration 0.25 Matched: 0.058
+Proportion with expiration 0.5 Matched: 0.054
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.089 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 139
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1634
+Proportion of Pairs Matched: 0.073
+Proportion of Pairs Expired: 0.852
+Proportion of Pairs Left At End: 0.075
+Pair Average Wait Time: 0.553
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.073
+Proportion with PRA > 0.2 Matched: 0.064
+Proportion with PRA > 0.4 Matched: 0.042
+Proportion with PRA > 0.6 Matched: 0.042
+Proportion with PRA > 0.8 Matched: 0.025
+Proportion with PRA > 0.9 Matched: 0.007
+Proportion of Type O Matched: 0.041
+Proportion of Type A Matched: 0.118
+Proportion of Type B Matched: 0.114
+Proportion of Type AB Matched: 0.136
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.016
+Proportion with expiration 0.1 Matched: 0.025
+Proportion with expiration 0.25 Matched: 0.022
+Proportion with expiration 0.5 Matched: 0.039
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.098 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 176
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1628
+Proportion of Pairs Matched: 0.089
+Proportion of Pairs Expired: 0.82
+Proportion of Pairs Left At End: 0.092
+Pair Average Wait Time: 0.61
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.089
+Proportion with PRA > 0.2 Matched: 0.08
+Proportion with PRA > 0.4 Matched: 0.05
+Proportion with PRA > 0.6 Matched: 0.05
+Proportion with PRA > 0.8 Matched: 0.029
+Proportion with PRA > 0.9 Matched: 0.009
+Proportion of Type O Matched: 0.054
+Proportion of Type A Matched: 0.148
+Proportion of Type B Matched: 0.141
+Proportion of Type AB Matched: 0.018
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.019
+Proportion with expiration 0.25 Matched: 0.032
+Proportion with expiration 0.5 Matched: 0.051
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.086 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 154
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1584
+Proportion of Pairs Matched: 0.082
+Proportion of Pairs Expired: 0.839
+Proportion of Pairs Left At End: 0.079
+Pair Average Wait Time: 0.588
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.082
+Proportion with PRA > 0.2 Matched: 0.07
+Proportion with PRA > 0.4 Matched: 0.043
+Proportion with PRA > 0.6 Matched: 0.043
+Proportion with PRA > 0.8 Matched: 0.024
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.048
+Proportion of Type A Matched: 0.115
+Proportion of Type B Matched: 0.129
+Proportion of Type AB Matched: 0.191
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.019
+Proportion with expiration 0.1 Matched: 0.04
+Proportion with expiration 0.25 Matched: 0.038
+Proportion with expiration 0.5 Matched: 0.045
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.097 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 200
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1652
+Proportion of Pairs Matched: 0.101
+Proportion of Pairs Expired: 0.833
+Proportion of Pairs Left At End: 0.067
+Pair Average Wait Time: 0.498
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.101
+Proportion with PRA > 0.2 Matched: 0.09
+Proportion with PRA > 0.4 Matched: 0.061
+Proportion with PRA > 0.6 Matched: 0.061
+Proportion with PRA > 0.8 Matched: 0.033
+Proportion with PRA > 0.9 Matched: 0.009
+Proportion of Type O Matched: 0.065
+Proportion of Type A Matched: 0.154
+Proportion of Type B Matched: 0.127
+Proportion of Type AB Matched: 0.256
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.015
+Proportion with expiration 0.1 Matched: 0.029
+Proportion with expiration 0.25 Matched: 0.029
+Proportion with expiration 0.5 Matched: 0.033
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.6
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 10
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 171.6
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1640.6
+Average Proportion of Pairs Matched: 0.0873
+Average Proportion of Pairs Expired: 0.8367
+Average Proportion of Pairs Left At End: 0.0759
+Average Pair Average Wait Time: 0.5488
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0873
+Average Proportion with PRA > 0.2 Matched: 0.0771
+Average Proportion with PRA > 0.4 Matched: 0.0499
+Average Proportion with PRA > 0.6 Matched: 0.0499
+Average Proportion with PRA > 0.8 Matched: 0.0275
+Average Proportion with PRA > 0.9 Matched: 0.0063
+Average Proportion of Type O Matched: 0.0529
+Average Proportion of Type A Matched: 0.1355
+Average Proportion of Type B Matched: 0.1319
+Average Proportion of Type AB Matched: 0.1516
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0174
+Average Proportion with expiration 0.1 Matched: 0.0295
+Average Proportion with expiration 0.25 Matched: 0.0358
+Average Proportion with expiration 0.5 Matched: 0.0445
+
+Total Time for Experiment: 0.478 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.074 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 175
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1746
+Proportion of Pairs Matched: 0.086
+Proportion of Pairs Expired: 0.86
+Proportion of Pairs Left At End: 0.054
+Pair Average Wait Time: 0.447
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.086
+Proportion with PRA > 0.2 Matched: 0.076
+Proportion with PRA > 0.4 Matched: 0.048
+Proportion with PRA > 0.6 Matched: 0.048
+Proportion with PRA > 0.8 Matched: 0.023
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.052
+Proportion of Type A Matched: 0.137
+Proportion of Type B Matched: 0.139
+Proportion of Type AB Matched: 0.089
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.025
+Proportion with expiration 0.1 Matched: 0.048
+Proportion with expiration 0.25 Matched: 0.04
+Proportion with expiration 0.5 Matched: 0.055
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.068 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 134
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1674
+Proportion of Pairs Matched: 0.07
+Proportion of Pairs Expired: 0.873
+Proportion of Pairs Left At End: 0.057
+Pair Average Wait Time: 0.427
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.07
+Proportion with PRA > 0.2 Matched: 0.063
+Proportion with PRA > 0.4 Matched: 0.042
+Proportion with PRA > 0.6 Matched: 0.042
+Proportion with PRA > 0.8 Matched: 0.023
+Proportion with PRA > 0.9 Matched: 0.006
+Proportion of Type O Matched: 0.04
+Proportion of Type A Matched: 0.107
+Proportion of Type B Matched: 0.114
+Proportion of Type AB Matched: 0.159
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.024
+Proportion with expiration 0.1 Matched: 0.019
+Proportion with expiration 0.25 Matched: 0.024
+Proportion with expiration 0.5 Matched: 0.047
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.074 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 155
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1690
+Proportion of Pairs Matched: 0.078
+Proportion of Pairs Expired: 0.851
+Proportion of Pairs Left At End: 0.071
+Pair Average Wait Time: 0.396
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.078
+Proportion with PRA > 0.2 Matched: 0.07
+Proportion with PRA > 0.4 Matched: 0.043
+Proportion with PRA > 0.6 Matched: 0.043
+Proportion with PRA > 0.8 Matched: 0.025
+Proportion with PRA > 0.9 Matched: 0.009
+Proportion of Type O Matched: 0.047
+Proportion of Type A Matched: 0.134
+Proportion of Type B Matched: 0.116
+Proportion of Type AB Matched: 0.036
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.014
+Proportion with expiration 0.1 Matched: 0.021
+Proportion with expiration 0.25 Matched: 0.044
+Proportion with expiration 0.5 Matched: 0.048
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.062 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 136
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1642
+Proportion of Pairs Matched: 0.072
+Proportion of Pairs Expired: 0.87
+Proportion of Pairs Left At End: 0.058
+Pair Average Wait Time: 0.454
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.072
+Proportion with PRA > 0.2 Matched: 0.061
+Proportion with PRA > 0.4 Matched: 0.037
+Proportion with PRA > 0.6 Matched: 0.037
+Proportion with PRA > 0.8 Matched: 0.019
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.042
+Proportion of Type A Matched: 0.107
+Proportion of Type B Matched: 0.112
+Proportion of Type AB Matched: 0.128
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.014
+Proportion with expiration 0.1 Matched: 0.036
+Proportion with expiration 0.25 Matched: 0.032
+Proportion with expiration 0.5 Matched: 0.036
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.067 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 177
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1710
+Proportion of Pairs Matched: 0.089
+Proportion of Pairs Expired: 0.862
+Proportion of Pairs Left At End: 0.049
+Pair Average Wait Time: 0.376
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.089
+Proportion with PRA > 0.2 Matched: 0.079
+Proportion with PRA > 0.4 Matched: 0.053
+Proportion with PRA > 0.6 Matched: 0.053
+Proportion with PRA > 0.8 Matched: 0.03
+Proportion with PRA > 0.9 Matched: 0.006
+Proportion of Type O Matched: 0.057
+Proportion of Type A Matched: 0.137
+Proportion of Type B Matched: 0.118
+Proportion of Type AB Matched: 0.205
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.022
+Proportion with expiration 0.1 Matched: 0.029
+Proportion with expiration 0.25 Matched: 0.026
+Proportion with expiration 0.5 Matched: 0.033
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.8
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 10
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 155.4
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1692.4
+Average Proportion of Pairs Matched: 0.0791
+Average Proportion of Pairs Expired: 0.8632
+Average Proportion of Pairs Left At End: 0.0577
+Average Pair Average Wait Time: 0.4201
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0791
+Average Proportion with PRA > 0.2 Matched: 0.0698
+Average Proportion with PRA > 0.4 Matched: 0.0446
+Average Proportion with PRA > 0.6 Matched: 0.0446
+Average Proportion with PRA > 0.8 Matched: 0.024
+Average Proportion with PRA > 0.9 Matched: 0.0054
+Average Proportion of Type O Matched: 0.0476
+Average Proportion of Type A Matched: 0.1242
+Average Proportion of Type B Matched: 0.1198
+Average Proportion of Type AB Matched: 0.1234
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0198
+Average Proportion with expiration 0.1 Matched: 0.0305
+Average Proportion with expiration 0.25 Matched: 0.0335
+Average Proportion with expiration 0.5 Matched: 0.0437
+
+Total Time for Experiment: 0.346 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.167 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 222
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1375
+Proportion of Pairs Matched: 0.109
+Proportion of Pairs Expired: 0.677
+Proportion of Pairs Left At End: 0.214
+Pair Average Wait Time: 1.168
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.109
+Proportion with PRA > 0.2 Matched: 0.099
+Proportion with PRA > 0.4 Matched: 0.065
+Proportion with PRA > 0.6 Matched: 0.065
+Proportion with PRA > 0.8 Matched: 0.032
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.066
+Proportion of Type A Matched: 0.172
+Proportion of Type B Matched: 0.176
+Proportion of Type AB Matched: 0.156
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.0
+Proportion with expiration 0.5 Matched: 0.063
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.136 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 161
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1326
+Proportion of Pairs Matched: 0.084
+Proportion of Pairs Expired: 0.692
+Proportion of Pairs Left At End: 0.224
+Pair Average Wait Time: 1.134
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.084
+Proportion with PRA > 0.2 Matched: 0.075
+Proportion with PRA > 0.4 Matched: 0.05
+Proportion with PRA > 0.6 Matched: 0.05
+Proportion with PRA > 0.8 Matched: 0.03
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.045
+Proportion of Type A Matched: 0.14
+Proportion of Type B Matched: 0.135
+Proportion of Type AB Matched: 0.159
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.024
+Proportion with expiration 0.5 Matched: 0.031
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.152 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 200
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1316
+Proportion of Pairs Matched: 0.101
+Proportion of Pairs Expired: 0.663
+Proportion of Pairs Left At End: 0.237
+Pair Average Wait Time: 1.061
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.101
+Proportion with PRA > 0.2 Matched: 0.091
+Proportion with PRA > 0.4 Matched: 0.058
+Proportion with PRA > 0.6 Matched: 0.058
+Proportion with PRA > 0.8 Matched: 0.031
+Proportion with PRA > 0.9 Matched: 0.01
+Proportion of Type O Matched: 0.061
+Proportion of Type A Matched: 0.163
+Proportion of Type B Matched: 0.162
+Proportion of Type AB Matched: 0.073
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.0
+Proportion with expiration 0.5 Matched: 0.039
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.129 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 187
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1281
+Proportion of Pairs Matched: 0.099
+Proportion of Pairs Expired: 0.679
+Proportion of Pairs Left At End: 0.222
+Pair Average Wait Time: 1.247
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.099
+Proportion with PRA > 0.2 Matched: 0.083
+Proportion with PRA > 0.4 Matched: 0.054
+Proportion with PRA > 0.6 Matched: 0.054
+Proportion with PRA > 0.8 Matched: 0.025
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.061
+Proportion of Type A Matched: 0.141
+Proportion of Type B Matched: 0.142
+Proportion of Type AB Matched: 0.234
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.029
+Proportion with expiration 0.5 Matched: 0.046
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.153 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 232
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1343
+Proportion of Pairs Matched: 0.117
+Proportion of Pairs Expired: 0.677
+Proportion of Pairs Left At End: 0.206
+Pair Average Wait Time: 1.206
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.117
+Proportion with PRA > 0.2 Matched: 0.104
+Proportion with PRA > 0.4 Matched: 0.073
+Proportion with PRA > 0.6 Matched: 0.073
+Proportion with PRA > 0.8 Matched: 0.038
+Proportion with PRA > 0.9 Matched: 0.01
+Proportion of Type O Matched: 0.079
+Proportion of Type A Matched: 0.164
+Proportion of Type B Matched: 0.16
+Proportion of Type AB Matched: 0.282
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.011
+Proportion with expiration 0.5 Matched: 0.033
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.2
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 30
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 200.4
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1328.2
+Average Proportion of Pairs Matched: 0.102
+Average Proportion of Pairs Expired: 0.6774
+Average Proportion of Pairs Left At End: 0.2206
+Average Pair Average Wait Time: 1.1633
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.102
+Average Proportion with PRA > 0.2 Matched: 0.0905
+Average Proportion with PRA > 0.4 Matched: 0.0599
+Average Proportion with PRA > 0.6 Matched: 0.0599
+Average Proportion with PRA > 0.8 Matched: 0.0312
+Average Proportion with PRA > 0.9 Matched: 0.0071
+Average Proportion of Type O Matched: 0.0624
+Average Proportion of Type A Matched: 0.156
+Average Proportion of Type B Matched: 0.1549
+Average Proportion of Type AB Matched: 0.1807
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0
+Average Proportion with expiration 0.1 Matched: 0.0
+Average Proportion with expiration 0.25 Matched: 0.0127
+Average Proportion with expiration 0.5 Matched: 0.0425
+
+Total Time for Experiment: 0.737 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.043 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 179
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1713
+Proportion of Pairs Matched: 0.088
+Proportion of Pairs Expired: 0.843
+Proportion of Pairs Left At End: 0.068
+Pair Average Wait Time: 0.557
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.088
+Proportion with PRA > 0.2 Matched: 0.078
+Proportion with PRA > 0.4 Matched: 0.052
+Proportion with PRA > 0.6 Matched: 0.052
+Proportion with PRA > 0.8 Matched: 0.023
+Proportion with PRA > 0.9 Matched: 0.0
+Proportion of Type O Matched: 0.051
+Proportion of Type A Matched: 0.145
+Proportion of Type B Matched: 0.139
+Proportion of Type AB Matched: 0.133
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.037
+Proportion with expiration 0.1 Matched: 0.026
+Proportion with expiration 0.25 Matched: 0.037
+Proportion with expiration 0.5 Matched: 0.045
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.031 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 125
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1650
+Proportion of Pairs Matched: 0.065
+Proportion of Pairs Expired: 0.861
+Proportion of Pairs Left At End: 0.074
+Pair Average Wait Time: 0.577
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.065
+Proportion with PRA > 0.2 Matched: 0.059
+Proportion with PRA > 0.4 Matched: 0.039
+Proportion with PRA > 0.6 Matched: 0.039
+Proportion with PRA > 0.8 Matched: 0.022
+Proportion with PRA > 0.9 Matched: 0.007
+Proportion of Type O Matched: 0.037
+Proportion of Type A Matched: 0.102
+Proportion of Type B Matched: 0.104
+Proportion of Type AB Matched: 0.136
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.009
+Proportion with expiration 0.5 Matched: 0.036
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.034 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 161
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1642
+Proportion of Pairs Matched: 0.081
+Proportion of Pairs Expired: 0.827
+Proportion of Pairs Left At End: 0.092
+Pair Average Wait Time: 0.622
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.081
+Proportion with PRA > 0.2 Matched: 0.073
+Proportion with PRA > 0.4 Matched: 0.047
+Proportion with PRA > 0.6 Matched: 0.047
+Proportion with PRA > 0.8 Matched: 0.027
+Proportion with PRA > 0.9 Matched: 0.01
+Proportion of Type O Matched: 0.051
+Proportion of Type A Matched: 0.134
+Proportion of Type B Matched: 0.123
+Proportion of Type AB Matched: 0.036
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.01
+Proportion with expiration 0.25 Matched: 0.023
+Proportion with expiration 0.5 Matched: 0.043
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.028 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 138
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1599
+Proportion of Pairs Matched: 0.073
+Proportion of Pairs Expired: 0.847
+Proportion of Pairs Left At End: 0.079
+Pair Average Wait Time: 0.651
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.073
+Proportion with PRA > 0.2 Matched: 0.063
+Proportion with PRA > 0.4 Matched: 0.038
+Proportion with PRA > 0.6 Matched: 0.038
+Proportion with PRA > 0.8 Matched: 0.02
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.04
+Proportion of Type A Matched: 0.111
+Proportion of Type B Matched: 0.116
+Proportion of Type AB Matched: 0.149
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.005
+Proportion with expiration 0.5 Matched: 0.025
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.033 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 188
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1663
+Proportion of Pairs Matched: 0.095
+Proportion of Pairs Expired: 0.838
+Proportion of Pairs Left At End: 0.067
+Pair Average Wait Time: 0.533
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.095
+Proportion with PRA > 0.2 Matched: 0.085
+Proportion with PRA > 0.4 Matched: 0.059
+Proportion with PRA > 0.6 Matched: 0.059
+Proportion with PRA > 0.8 Matched: 0.032
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.058
+Proportion of Type A Matched: 0.147
+Proportion of Type B Matched: 0.127
+Proportion of Type AB Matched: 0.231
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.029
+Proportion with expiration 0.25 Matched: 0.033
+Proportion with expiration 0.5 Matched: 0.027
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.6
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 30
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 158.2
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1653.4
+Average Proportion of Pairs Matched: 0.0805
+Average Proportion of Pairs Expired: 0.8433
+Average Proportion of Pairs Left At End: 0.0762
+Average Pair Average Wait Time: 0.5879
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0805
+Average Proportion with PRA > 0.2 Matched: 0.0714
+Average Proportion with PRA > 0.4 Matched: 0.0469
+Average Proportion with PRA > 0.6 Matched: 0.0469
+Average Proportion with PRA > 0.8 Matched: 0.0248
+Average Proportion with PRA > 0.9 Matched: 0.0059
+Average Proportion of Type O Matched: 0.0474
+Average Proportion of Type A Matched: 0.1279
+Average Proportion of Type B Matched: 0.1217
+Average Proportion of Type AB Matched: 0.1372
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0074
+Average Proportion with expiration 0.1 Matched: 0.0129
+Average Proportion with expiration 0.25 Matched: 0.0214
+Average Proportion with expiration 0.5 Matched: 0.0352
+
+Total Time for Experiment: 0.17 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.025 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 155
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1765
+Proportion of Pairs Matched: 0.076
+Proportion of Pairs Expired: 0.869
+Proportion of Pairs Left At End: 0.055
+Pair Average Wait Time: 0.478
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.076
+Proportion with PRA > 0.2 Matched: 0.067
+Proportion with PRA > 0.4 Matched: 0.044
+Proportion with PRA > 0.6 Matched: 0.044
+Proportion with PRA > 0.8 Matched: 0.019
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.046
+Proportion of Type A Matched: 0.121
+Proportion of Type B Matched: 0.125
+Proportion of Type AB Matched: 0.089
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.013
+Proportion with expiration 0.1 Matched: 0.018
+Proportion with expiration 0.25 Matched: 0.019
+Proportion with expiration 0.5 Matched: 0.046
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.025 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 117
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1691
+Proportion of Pairs Matched: 0.061
+Proportion of Pairs Expired: 0.882
+Proportion of Pairs Left At End: 0.057
+Pair Average Wait Time: 0.504
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.061
+Proportion with PRA > 0.2 Matched: 0.055
+Proportion with PRA > 0.4 Matched: 0.037
+Proportion with PRA > 0.6 Matched: 0.037
+Proportion with PRA > 0.8 Matched: 0.02
+Proportion with PRA > 0.9 Matched: 0.005
+Proportion of Type O Matched: 0.034
+Proportion of Type A Matched: 0.098
+Proportion of Type B Matched: 0.098
+Proportion of Type AB Matched: 0.136
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.006
+Proportion with expiration 0.25 Matched: 0.014
+Proportion with expiration 0.5 Matched: 0.037
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.028 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 139
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1706
+Proportion of Pairs Matched: 0.07
+Proportion of Pairs Expired: 0.859
+Proportion of Pairs Left At End: 0.071
+Pair Average Wait Time: 0.478
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.07
+Proportion with PRA > 0.2 Matched: 0.062
+Proportion with PRA > 0.4 Matched: 0.038
+Proportion with PRA > 0.6 Matched: 0.038
+Proportion with PRA > 0.8 Matched: 0.025
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.043
+Proportion of Type A Matched: 0.115
+Proportion of Type B Matched: 0.109
+Proportion of Type AB Matched: 0.036
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.02
+Proportion with expiration 0.5 Matched: 0.031
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.023 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 119
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1657
+Proportion of Pairs Matched: 0.063
+Proportion of Pairs Expired: 0.878
+Proportion of Pairs Left At End: 0.059
+Pair Average Wait Time: 0.588
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.063
+Proportion with PRA > 0.2 Matched: 0.054
+Proportion with PRA > 0.4 Matched: 0.031
+Proportion with PRA > 0.6 Matched: 0.031
+Proportion with PRA > 0.8 Matched: 0.015
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.035
+Proportion of Type A Matched: 0.092
+Proportion of Type B Matched: 0.106
+Proportion of Type AB Matched: 0.106
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.004
+Proportion with expiration 0.5 Matched: 0.019
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.028 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 172
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1714
+Proportion of Pairs Matched: 0.087
+Proportion of Pairs Expired: 0.864
+Proportion of Pairs Left At End: 0.049
+Pair Average Wait Time: 0.484
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.087
+Proportion with PRA > 0.2 Matched: 0.076
+Proportion with PRA > 0.4 Matched: 0.053
+Proportion with PRA > 0.6 Matched: 0.053
+Proportion with PRA > 0.8 Matched: 0.029
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.055
+Proportion of Type A Matched: 0.133
+Proportion of Type B Matched: 0.115
+Proportion of Type AB Matched: 0.205
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.011
+Proportion with expiration 0.1 Matched: 0.029
+Proportion with expiration 0.25 Matched: 0.03
+Proportion with expiration 0.5 Matched: 0.03
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.8
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 30
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 140.4
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1706.6
+Average Proportion of Pairs Matched: 0.0714
+Average Proportion of Pairs Expired: 0.8704
+Average Proportion of Pairs Left At End: 0.0581
+Average Pair Average Wait Time: 0.5066
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0714
+Average Proportion with PRA > 0.2 Matched: 0.0628
+Average Proportion with PRA > 0.4 Matched: 0.0407
+Average Proportion with PRA > 0.6 Matched: 0.0407
+Average Proportion with PRA > 0.8 Matched: 0.0216
+Average Proportion with PRA > 0.9 Matched: 0.0054
+Average Proportion of Type O Matched: 0.0425
+Average Proportion of Type A Matched: 0.1118
+Average Proportion of Type B Matched: 0.1104
+Average Proportion of Type AB Matched: 0.1146
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0047
+Average Proportion with expiration 0.1 Matched: 0.0106
+Average Proportion with expiration 0.25 Matched: 0.0172
+Average Proportion with expiration 0.5 Matched: 0.0326
+
+Total Time for Experiment: 0.131 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.108 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 211
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1380
+Proportion of Pairs Matched: 0.104
+Proportion of Pairs Expired: 0.679
+Proportion of Pairs Left At End: 0.217
+Pair Average Wait Time: 1.323
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.104
+Proportion with PRA > 0.2 Matched: 0.093
+Proportion with PRA > 0.4 Matched: 0.061
+Proportion with PRA > 0.6 Matched: 0.061
+Proportion with PRA > 0.8 Matched: 0.03
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.065
+Proportion of Type A Matched: 0.155
+Proportion of Type B Matched: 0.166
+Proportion of Type AB Matched: 0.178
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.027
+Proportion with expiration 0.25 Matched: 0.025
+Proportion with expiration 0.5 Matched: 0.049
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.092 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 168
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1324
+Proportion of Pairs Matched: 0.088
+Proportion of Pairs Expired: 0.691
+Proportion of Pairs Left At End: 0.222
+Pair Average Wait Time: 1.217
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.088
+Proportion with PRA > 0.2 Matched: 0.079
+Proportion with PRA > 0.4 Matched: 0.053
+Proportion with PRA > 0.6 Matched: 0.053
+Proportion with PRA > 0.8 Matched: 0.028
+Proportion with PRA > 0.9 Matched: 0.009
+Proportion of Type O Matched: 0.049
+Proportion of Type A Matched: 0.138
+Proportion of Type B Matched: 0.145
+Proportion of Type AB Matched: 0.182
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.024
+Proportion with expiration 0.5 Matched: 0.031
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.099 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 195
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1317
+Proportion of Pairs Matched: 0.098
+Proportion of Pairs Expired: 0.663
+Proportion of Pairs Left At End: 0.239
+Pair Average Wait Time: 1.241
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.098
+Proportion with PRA > 0.2 Matched: 0.09
+Proportion with PRA > 0.4 Matched: 0.058
+Proportion with PRA > 0.6 Matched: 0.058
+Proportion with PRA > 0.8 Matched: 0.034
+Proportion with PRA > 0.9 Matched: 0.012
+Proportion of Type O Matched: 0.061
+Proportion of Type A Matched: 0.156
+Proportion of Type B Matched: 0.151
+Proportion of Type AB Matched: 0.091
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.031
+Proportion with expiration 0.25 Matched: 0.028
+Proportion with expiration 0.5 Matched: 0.022
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.082 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 180
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1289
+Proportion of Pairs Matched: 0.095
+Proportion of Pairs Expired: 0.683
+Proportion of Pairs Left At End: 0.222
+Pair Average Wait Time: 1.162
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.095
+Proportion with PRA > 0.2 Matched: 0.079
+Proportion with PRA > 0.4 Matched: 0.05
+Proportion with PRA > 0.6 Matched: 0.05
+Proportion with PRA > 0.8 Matched: 0.022
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.06
+Proportion of Type A Matched: 0.141
+Proportion of Type B Matched: 0.125
+Proportion of Type AB Matched: 0.213
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.0
+Proportion with expiration 0.5 Matched: 0.023
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.098 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 222
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1352
+Proportion of Pairs Matched: 0.112
+Proportion of Pairs Expired: 0.681
+Proportion of Pairs Left At End: 0.207
+Pair Average Wait Time: 1.44
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.112
+Proportion with PRA > 0.2 Matched: 0.1
+Proportion with PRA > 0.4 Matched: 0.07
+Proportion with PRA > 0.6 Matched: 0.07
+Proportion with PRA > 0.8 Matched: 0.036
+Proportion with PRA > 0.9 Matched: 0.01
+Proportion of Type O Matched: 0.074
+Proportion of Type A Matched: 0.164
+Proportion of Type B Matched: 0.148
+Proportion of Type AB Matched: 0.256
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.011
+Proportion with expiration 0.5 Matched: 0.019
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.2
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 50
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 195.2
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1332.4
+Average Proportion of Pairs Matched: 0.0994
+Average Proportion of Pairs Expired: 0.6796
+Average Proportion of Pairs Left At End: 0.221
+Average Pair Average Wait Time: 1.2764
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0994
+Average Proportion with PRA > 0.2 Matched: 0.0881
+Average Proportion with PRA > 0.4 Matched: 0.0582
+Average Proportion with PRA > 0.6 Matched: 0.0582
+Average Proportion with PRA > 0.8 Matched: 0.0298
+Average Proportion with PRA > 0.9 Matched: 0.0076
+Average Proportion of Type O Matched: 0.0618
+Average Proportion of Type A Matched: 0.151
+Average Proportion of Type B Matched: 0.147
+Average Proportion of Type AB Matched: 0.1839
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0
+Average Proportion with expiration 0.1 Matched: 0.0117
+Average Proportion with expiration 0.25 Matched: 0.0175
+Average Proportion with expiration 0.5 Matched: 0.0288
+
+Total Time for Experiment: 0.48 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.023 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 168
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1721
+Proportion of Pairs Matched: 0.083
+Proportion of Pairs Expired: 0.847
+Proportion of Pairs Left At End: 0.07
+Pair Average Wait Time: 0.613
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.083
+Proportion with PRA > 0.2 Matched: 0.072
+Proportion with PRA > 0.4 Matched: 0.047
+Proportion with PRA > 0.6 Matched: 0.047
+Proportion with PRA > 0.8 Matched: 0.023
+Proportion with PRA > 0.9 Matched: 0.002
+Proportion of Type O Matched: 0.049
+Proportion of Type A Matched: 0.131
+Proportion of Type B Matched: 0.135
+Proportion of Type AB Matched: 0.111
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.019
+Proportion with expiration 0.1 Matched: 0.017
+Proportion with expiration 0.25 Matched: 0.029
+Proportion with expiration 0.5 Matched: 0.032
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.019 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 129
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1646
+Proportion of Pairs Matched: 0.067
+Proportion of Pairs Expired: 0.859
+Proportion of Pairs Left At End: 0.074
+Pair Average Wait Time: 0.65
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.067
+Proportion with PRA > 0.2 Matched: 0.061
+Proportion with PRA > 0.4 Matched: 0.043
+Proportion with PRA > 0.6 Matched: 0.043
+Proportion with PRA > 0.8 Matched: 0.023
+Proportion with PRA > 0.9 Matched: 0.006
+Proportion of Type O Matched: 0.037
+Proportion of Type A Matched: 0.111
+Proportion of Type B Matched: 0.104
+Proportion of Type AB Matched: 0.136
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.016
+Proportion with expiration 0.1 Matched: 0.008
+Proportion with expiration 0.25 Matched: 0.018
+Proportion with expiration 0.5 Matched: 0.036
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.022 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 144
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1660
+Proportion of Pairs Matched: 0.073
+Proportion of Pairs Expired: 0.836
+Proportion of Pairs Left At End: 0.092
+Pair Average Wait Time: 0.661
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.073
+Proportion with PRA > 0.2 Matched: 0.066
+Proportion with PRA > 0.4 Matched: 0.042
+Proportion with PRA > 0.6 Matched: 0.042
+Proportion with PRA > 0.8 Matched: 0.026
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.044
+Proportion of Type A Matched: 0.119
+Proportion of Type B Matched: 0.113
+Proportion of Type AB Matched: 0.055
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.009
+Proportion with expiration 0.5 Matched: 0.025
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.02 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 127
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1609
+Proportion of Pairs Matched: 0.067
+Proportion of Pairs Expired: 0.853
+Proportion of Pairs Left At End: 0.08
+Pair Average Wait Time: 0.801
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.067
+Proportion with PRA > 0.2 Matched: 0.057
+Proportion with PRA > 0.4 Matched: 0.035
+Proportion with PRA > 0.6 Matched: 0.035
+Proportion with PRA > 0.8 Matched: 0.017
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.04
+Proportion of Type A Matched: 0.098
+Proportion of Type B Matched: 0.099
+Proportion of Type AB Matched: 0.149
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.005
+Proportion with expiration 0.5 Matched: 0.016
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.023 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 174
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1675
+Proportion of Pairs Matched: 0.088
+Proportion of Pairs Expired: 0.844
+Proportion of Pairs Left At End: 0.068
+Pair Average Wait Time: 0.593
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.088
+Proportion with PRA > 0.2 Matched: 0.078
+Proportion with PRA > 0.4 Matched: 0.055
+Proportion with PRA > 0.6 Matched: 0.055
+Proportion with PRA > 0.8 Matched: 0.03
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.057
+Proportion of Type A Matched: 0.137
+Proportion of Type B Matched: 0.109
+Proportion of Type AB Matched: 0.205
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.015
+Proportion with expiration 0.1 Matched: 0.007
+Proportion with expiration 0.25 Matched: 0.008
+Proportion with expiration 0.5 Matched: 0.019
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.6
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 50
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 148.4
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1662.2
+Average Proportion of Pairs Matched: 0.0755
+Average Proportion of Pairs Expired: 0.8478
+Average Proportion of Pairs Left At End: 0.0767
+Average Pair Average Wait Time: 0.6636
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0755
+Average Proportion with PRA > 0.2 Matched: 0.0669
+Average Proportion with PRA > 0.4 Matched: 0.0442
+Average Proportion with PRA > 0.6 Matched: 0.0442
+Average Proportion with PRA > 0.8 Matched: 0.0238
+Average Proportion with PRA > 0.9 Matched: 0.0058
+Average Proportion of Type O Matched: 0.0454
+Average Proportion of Type A Matched: 0.1194
+Average Proportion of Type B Matched: 0.112
+Average Proportion of Type AB Matched: 0.1312
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0098
+Average Proportion with expiration 0.1 Matched: 0.0066
+Average Proportion with expiration 0.25 Matched: 0.0137
+Average Proportion with expiration 0.5 Matched: 0.0256
+
+Total Time for Experiment: 0.107 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.018 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 141
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1779
+Proportion of Pairs Matched: 0.069
+Proportion of Pairs Expired: 0.876
+Proportion of Pairs Left At End: 0.055
+Pair Average Wait Time: 0.57
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.069
+Proportion with PRA > 0.2 Matched: 0.062
+Proportion with PRA > 0.4 Matched: 0.04
+Proportion with PRA > 0.6 Matched: 0.04
+Proportion with PRA > 0.8 Matched: 0.02
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.038
+Proportion of Type A Matched: 0.115
+Proportion of Type B Matched: 0.118
+Proportion of Type AB Matched: 0.089
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.012
+Proportion with expiration 0.25 Matched: 0.016
+Proportion with expiration 0.5 Matched: 0.028
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.016 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 101
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1705
+Proportion of Pairs Matched: 0.053
+Proportion of Pairs Expired: 0.889
+Proportion of Pairs Left At End: 0.058
+Pair Average Wait Time: 0.595
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.053
+Proportion with PRA > 0.2 Matched: 0.047
+Proportion with PRA > 0.4 Matched: 0.031
+Proportion with PRA > 0.6 Matched: 0.031
+Proportion with PRA > 0.8 Matched: 0.017
+Proportion with PRA > 0.9 Matched: 0.005
+Proportion of Type O Matched: 0.031
+Proportion of Type A Matched: 0.085
+Proportion of Type B Matched: 0.077
+Proportion of Type AB Matched: 0.114
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.019
+Proportion with expiration 0.25 Matched: 0.021
+Proportion with expiration 0.5 Matched: 0.031
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.017 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 128
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1716
+Proportion of Pairs Matched: 0.064
+Proportion of Pairs Expired: 0.864
+Proportion of Pairs Left At End: 0.072
+Pair Average Wait Time: 0.509
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.064
+Proportion with PRA > 0.2 Matched: 0.057
+Proportion with PRA > 0.4 Matched: 0.035
+Proportion with PRA > 0.6 Matched: 0.035
+Proportion with PRA > 0.8 Matched: 0.02
+Proportion with PRA > 0.9 Matched: 0.005
+Proportion of Type O Matched: 0.04
+Proportion of Type A Matched: 0.109
+Proportion of Type B Matched: 0.099
+Proportion of Type AB Matched: 0.018
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.0
+Proportion with expiration 0.25 Matched: 0.013
+Proportion with expiration 0.5 Matched: 0.025
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.016 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 105
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1671
+Proportion of Pairs Matched: 0.056
+Proportion of Pairs Expired: 0.886
+Proportion of Pairs Left At End: 0.059
+Pair Average Wait Time: 0.644
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.056
+Proportion with PRA > 0.2 Matched: 0.047
+Proportion with PRA > 0.4 Matched: 0.029
+Proportion with PRA > 0.6 Matched: 0.029
+Proportion with PRA > 0.8 Matched: 0.014
+Proportion with PRA > 0.9 Matched: 0.002
+Proportion of Type O Matched: 0.032
+Proportion of Type A Matched: 0.082
+Proportion of Type B Matched: 0.086
+Proportion of Type AB Matched: 0.106
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.007
+Proportion with expiration 0.25 Matched: 0.011
+Proportion with expiration 0.5 Matched: 0.017
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.017 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 161
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1726
+Proportion of Pairs Matched: 0.081
+Proportion of Pairs Expired: 0.87
+Proportion of Pairs Left At End: 0.049
+Pair Average Wait Time: 0.536
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.081
+Proportion with PRA > 0.2 Matched: 0.071
+Proportion with PRA > 0.4 Matched: 0.05
+Proportion with PRA > 0.6 Matched: 0.05
+Proportion with PRA > 0.8 Matched: 0.027
+Proportion with PRA > 0.9 Matched: 0.007
+Proportion of Type O Matched: 0.052
+Proportion of Type A Matched: 0.129
+Proportion of Type B Matched: 0.1
+Proportion of Type AB Matched: 0.179
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.011
+Proportion with expiration 0.1 Matched: 0.012
+Proportion with expiration 0.25 Matched: 0.01
+Proportion with expiration 0.5 Matched: 0.02
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.8
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 50
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 127.2
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1719.4
+Average Proportion of Pairs Matched: 0.0647
+Average Proportion of Pairs Expired: 0.877
+Average Proportion of Pairs Left At End: 0.0584
+Average Pair Average Wait Time: 0.571
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.0647
+Average Proportion with PRA > 0.2 Matched: 0.057
+Average Proportion with PRA > 0.4 Matched: 0.037
+Average Proportion with PRA > 0.6 Matched: 0.037
+Average Proportion with PRA > 0.8 Matched: 0.0195
+Average Proportion with PRA > 0.9 Matched: 0.0046
+Average Proportion of Type O Matched: 0.0387
+Average Proportion of Type A Matched: 0.1038
+Average Proportion of Type B Matched: 0.096
+Average Proportion of Type AB Matched: 0.1013
+Average Proportion with expiration 0.01 Matched: 0.0
+Average Proportion with expiration 0.05 Matched: 0.0022
+Average Proportion with expiration 0.1 Matched: 0.0099
+Average Proportion with expiration 0.25 Matched: 0.0141
+Average Proportion with expiration 0.5 Matched: 0.0242
+
+Total Time for Experiment: 0.084 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 4.766 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 229
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1370
+Proportion of Pairs Matched: 0.113
+Proportion of Pairs Expired: 0.675
+Proportion of Pairs Left At End: 0.213
+Pair Average Wait Time: 1.075
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.113
+Proportion with PRA > 0.2 Matched: 0.102
+Proportion with PRA > 0.4 Matched: 0.065
+Proportion with PRA > 0.6 Matched: 0.065
+Proportion with PRA > 0.8 Matched: 0.032
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.07
+Proportion of Type A Matched: 0.176
+Proportion of Type B Matched: 0.176
+Proportion of Type AB Matched: 0.156
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.062
+Proportion with expiration 0.1 Matched: 0.054
+Proportion with expiration 0.25 Matched: 0.062
+Proportion with expiration 0.5 Matched: 0.088
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 4.203 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 180
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1312
+Proportion of Pairs Matched: 0.094
+Proportion of Pairs Expired: 0.684
+Proportion of Pairs Left At End: 0.222
+Pair Average Wait Time: 1.162
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.094
+Proportion with PRA > 0.2 Matched: 0.083
+Proportion with PRA > 0.4 Matched: 0.052
+Proportion with PRA > 0.6 Matched: 0.052
+Proportion with PRA > 0.8 Matched: 0.031
+Proportion with PRA > 0.9 Matched: 0.01
+Proportion of Type O Matched: 0.053
+Proportion of Type A Matched: 0.149
+Proportion of Type B Matched: 0.152
+Proportion of Type AB Matched: 0.182
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.025
+Proportion with expiration 0.25 Matched: 0.06
+Proportion with expiration 0.5 Matched: 0.057
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 4.457 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 204
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1310
+Proportion of Pairs Matched: 0.103
+Proportion of Pairs Expired: 0.66
+Proportion of Pairs Left At End: 0.238
+Pair Average Wait Time: 0.979
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.103
+Proportion with PRA > 0.2 Matched: 0.093
+Proportion with PRA > 0.4 Matched: 0.059
+Proportion with PRA > 0.6 Matched: 0.059
+Proportion with PRA > 0.8 Matched: 0.032
+Proportion with PRA > 0.9 Matched: 0.009
+Proportion of Type O Matched: 0.06
+Proportion of Type A Matched: 0.173
+Proportion of Type B Matched: 0.165
+Proportion of Type AB Matched: 0.055
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.031
+Proportion with expiration 0.25 Matched: 0.028
+Proportion with expiration 0.5 Matched: 0.05
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 3.454 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 191
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1283
+Proportion of Pairs Matched: 0.101
+Proportion of Pairs Expired: 0.68
+Proportion of Pairs Left At End: 0.219
+Pair Average Wait Time: 1.0
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.101
+Proportion with PRA > 0.2 Matched: 0.085
+Proportion with PRA > 0.4 Matched: 0.054
+Proportion with PRA > 0.6 Matched: 0.054
+Proportion with PRA > 0.8 Matched: 0.024
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.059
+Proportion of Type A Matched: 0.143
+Proportion of Type B Matched: 0.155
+Proportion of Type AB Matched: 0.255
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.026
+Proportion with expiration 0.25 Matched: 0.043
+Proportion with expiration 0.5 Matched: 0.057
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 4.587 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 228
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1347
+Proportion of Pairs Matched: 0.115
+Proportion of Pairs Expired: 0.679
+Proportion of Pairs Left At End: 0.206
+Pair Average Wait Time: 0.961
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.115
+Proportion with PRA > 0.2 Matched: 0.103
+Proportion with PRA > 0.4 Matched: 0.071
+Proportion with PRA > 0.6 Matched: 0.071
+Proportion with PRA > 0.8 Matched: 0.04
+Proportion with PRA > 0.9 Matched: 0.012
+Proportion of Type O Matched: 0.072
+Proportion of Type A Matched: 0.176
+Proportion of Type B Matched: 0.151
+Proportion of Type AB Matched: 0.282
+Proportion with expiration 0.01 Matched: 1.0
+Proportion with expiration 0.05 Matched: 0.158
+Proportion with expiration 0.1 Matched: 0.07
+Proportion with expiration 0.25 Matched: 0.054
+Proportion with expiration 0.5 Matched: 0.047
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.2
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 1
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 206.4
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1324.4
+Average Proportion of Pairs Matched: 0.1051
+Average Proportion of Pairs Expired: 0.6755
+Average Proportion of Pairs Left At End: 0.2194
+Average Pair Average Wait Time: 1.0353
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.1051
+Average Proportion with PRA > 0.2 Matched: 0.0931
+Average Proportion with PRA > 0.4 Matched: 0.0602
+Average Proportion with PRA > 0.6 Matched: 0.0602
+Average Proportion with PRA > 0.8 Matched: 0.0319
+Average Proportion with PRA > 0.9 Matched: 0.0078
+Average Proportion of Type O Matched: 0.063
+Average Proportion of Type A Matched: 0.1635
+Average Proportion of Type B Matched: 0.1598
+Average Proportion of Type AB Matched: 0.1859
+Average Proportion with expiration 0.01 Matched: 0.2
+Average Proportion with expiration 0.05 Matched: 0.0441
+Average Proportion with expiration 0.1 Matched: 0.0411
+Average Proportion with expiration 0.25 Matched: 0.0495
+Average Proportion with expiration 0.5 Matched: 0.06
+
+Total Time for Experiment: 21.467 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.989 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 202
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1692
+Proportion of Pairs Matched: 0.099
+Proportion of Pairs Expired: 0.833
+Proportion of Pairs Left At End: 0.067
+Pair Average Wait Time: 0.531
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.099
+Proportion with PRA > 0.2 Matched: 0.088
+Proportion with PRA > 0.4 Matched: 0.058
+Proportion with PRA > 0.6 Matched: 0.058
+Proportion with PRA > 0.8 Matched: 0.028
+Proportion with PRA > 0.9 Matched: 0.004
+Proportion of Type O Matched: 0.06
+Proportion of Type A Matched: 0.157
+Proportion of Type B Matched: 0.152
+Proportion of Type AB Matched: 0.178
+Proportion with expiration 0.01 Matched: 0.111
+Proportion with expiration 0.05 Matched: 0.056
+Proportion with expiration 0.1 Matched: 0.043
+Proportion with expiration 0.25 Matched: 0.066
+Proportion with expiration 0.5 Matched: 0.054
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.827 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 146
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1632
+Proportion of Pairs Matched: 0.076
+Proportion of Pairs Expired: 0.851
+Proportion of Pairs Left At End: 0.073
+Pair Average Wait Time: 0.504
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.076
+Proportion with PRA > 0.2 Matched: 0.068
+Proportion with PRA > 0.4 Matched: 0.044
+Proportion with PRA > 0.6 Matched: 0.044
+Proportion with PRA > 0.8 Matched: 0.027
+Proportion with PRA > 0.9 Matched: 0.006
+Proportion of Type O Matched: 0.043
+Proportion of Type A Matched: 0.118
+Proportion of Type B Matched: 0.125
+Proportion of Type AB Matched: 0.159
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.0
+Proportion with expiration 0.1 Matched: 0.017
+Proportion with expiration 0.25 Matched: 0.018
+Proportion with expiration 0.5 Matched: 0.039
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.925 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 170
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1634
+Proportion of Pairs Matched: 0.086
+Proportion of Pairs Expired: 0.823
+Proportion of Pairs Left At End: 0.092
+Pair Average Wait Time: 0.579
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.086
+Proportion with PRA > 0.2 Matched: 0.076
+Proportion with PRA > 0.4 Matched: 0.049
+Proportion with PRA > 0.6 Matched: 0.049
+Proportion with PRA > 0.8 Matched: 0.028
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.053
+Proportion of Type A Matched: 0.146
+Proportion of Type B Matched: 0.13
+Proportion of Type AB Matched: 0.018
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.018
+Proportion with expiration 0.1 Matched: 0.029
+Proportion with expiration 0.25 Matched: 0.037
+Proportion with expiration 0.5 Matched: 0.045
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.775 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 154
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1585
+Proportion of Pairs Matched: 0.082
+Proportion of Pairs Expired: 0.84
+Proportion of Pairs Left At End: 0.078
+Pair Average Wait Time: 0.485
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.082
+Proportion with PRA > 0.2 Matched: 0.07
+Proportion with PRA > 0.4 Matched: 0.042
+Proportion with PRA > 0.6 Matched: 0.042
+Proportion with PRA > 0.8 Matched: 0.02
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.05
+Proportion of Type A Matched: 0.119
+Proportion of Type B Matched: 0.116
+Proportion of Type AB Matched: 0.191
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.038
+Proportion with expiration 0.1 Matched: 0.04
+Proportion with expiration 0.25 Matched: 0.038
+Proportion with expiration 0.5 Matched: 0.047
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.898 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 203
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1649
+Proportion of Pairs Matched: 0.102
+Proportion of Pairs Expired: 0.831
+Proportion of Pairs Left At End: 0.067
+Pair Average Wait Time: 0.417
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.102
+Proportion with PRA > 0.2 Matched: 0.09
+Proportion with PRA > 0.4 Matched: 0.06
+Proportion with PRA > 0.6 Matched: 0.06
+Proportion with PRA > 0.8 Matched: 0.034
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.065
+Proportion of Type A Matched: 0.158
+Proportion of Type B Matched: 0.133
+Proportion of Type AB Matched: 0.231
+Proportion with expiration 0.01 Matched: 0.2
+Proportion with expiration 0.05 Matched: 0.059
+Proportion with expiration 0.1 Matched: 0.066
+Proportion with expiration 0.25 Matched: 0.046
+Proportion with expiration 0.5 Matched: 0.043
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.6
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 1
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 175.0
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1638.4
+Average Proportion of Pairs Matched: 0.089
+Average Proportion of Pairs Expired: 0.8357
+Average Proportion of Pairs Left At End: 0.0753
+Average Pair Average Wait Time: 0.5033
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.089
+Average Proportion with PRA > 0.2 Matched: 0.0784
+Average Proportion with PRA > 0.4 Matched: 0.0506
+Average Proportion with PRA > 0.6 Matched: 0.0506
+Average Proportion with PRA > 0.8 Matched: 0.0275
+Average Proportion with PRA > 0.9 Matched: 0.0059
+Average Proportion of Type O Matched: 0.0542
+Average Proportion of Type A Matched: 0.1396
+Average Proportion of Type B Matched: 0.1311
+Average Proportion of Type AB Matched: 0.1555
+Average Proportion with expiration 0.01 Matched: 0.0622
+Average Proportion with expiration 0.05 Matched: 0.0342
+Average Proportion with expiration 0.1 Matched: 0.0388
+Average Proportion with expiration 0.25 Matched: 0.0409
+Average Proportion with expiration 0.5 Matched: 0.0457
+
+Total Time for Experiment: 4.414 minutes
+
+
+Simulator Starting
+This simulator will involve 2031 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.709 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 180
+Number of Pairs Seen: 2031
+Number of Pairs Expired: 1742
+Proportion of Pairs Matched: 0.089
+Proportion of Pairs Expired: 0.858
+Proportion of Pairs Left At End: 0.054
+Pair Average Wait Time: 0.406
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.089
+Proportion with PRA > 0.2 Matched: 0.078
+Proportion with PRA > 0.4 Matched: 0.05
+Proportion with PRA > 0.6 Matched: 0.05
+Proportion with PRA > 0.8 Matched: 0.025
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.05
+Proportion of Type A Matched: 0.141
+Proportion of Type B Matched: 0.152
+Proportion of Type AB Matched: 0.133
+Proportion with expiration 0.01 Matched: 0.091
+Proportion with expiration 0.05 Matched: 0.075
+Proportion with expiration 0.1 Matched: 0.065
+Proportion with expiration 0.25 Matched: 0.056
+Proportion with expiration 0.5 Matched: 0.064
+
+
+Simulator Starting
+This simulator will involve 1917 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.598 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 139
+Number of Pairs Seen: 1917
+Number of Pairs Expired: 1673
+Proportion of Pairs Matched: 0.073
+Proportion of Pairs Expired: 0.873
+Proportion of Pairs Left At End: 0.055
+Pair Average Wait Time: 0.375
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.073
+Proportion with PRA > 0.2 Matched: 0.065
+Proportion with PRA > 0.4 Matched: 0.042
+Proportion with PRA > 0.6 Matched: 0.042
+Proportion with PRA > 0.8 Matched: 0.025
+Proportion with PRA > 0.9 Matched: 0.006
+Proportion of Type O Matched: 0.043
+Proportion of Type A Matched: 0.111
+Proportion of Type B Matched: 0.114
+Proportion of Type AB Matched: 0.159
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.048
+Proportion with expiration 0.1 Matched: 0.032
+Proportion with expiration 0.25 Matched: 0.031
+Proportion with expiration 0.5 Matched: 0.05
+
+
+Simulator Starting
+This simulator will involve 1986 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.68 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 159
+Number of Pairs Seen: 1986
+Number of Pairs Expired: 1686
+Proportion of Pairs Matched: 0.08
+Proportion of Pairs Expired: 0.849
+Proportion of Pairs Left At End: 0.071
+Pair Average Wait Time: 0.443
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.08
+Proportion with PRA > 0.2 Matched: 0.072
+Proportion with PRA > 0.4 Matched: 0.046
+Proportion with PRA > 0.6 Matched: 0.046
+Proportion with PRA > 0.8 Matched: 0.026
+Proportion with PRA > 0.9 Matched: 0.007
+Proportion of Type O Matched: 0.049
+Proportion of Type A Matched: 0.138
+Proportion of Type B Matched: 0.116
+Proportion of Type AB Matched: 0.036
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.014
+Proportion with expiration 0.1 Matched: 0.021
+Proportion with expiration 0.25 Matched: 0.044
+Proportion with expiration 0.5 Matched: 0.052
+
+
+Simulator Starting
+This simulator will involve 1887 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.579 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 141
+Number of Pairs Seen: 1887
+Number of Pairs Expired: 1638
+Proportion of Pairs Matched: 0.075
+Proportion of Pairs Expired: 0.868
+Proportion of Pairs Left At End: 0.057
+Pair Average Wait Time: 0.469
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.075
+Proportion with PRA > 0.2 Matched: 0.064
+Proportion with PRA > 0.4 Matched: 0.04
+Proportion with PRA > 0.6 Matched: 0.04
+Proportion with PRA > 0.8 Matched: 0.019
+Proportion with PRA > 0.9 Matched: 0.003
+Proportion of Type O Matched: 0.042
+Proportion of Type A Matched: 0.109
+Proportion of Type B Matched: 0.119
+Proportion of Type AB Matched: 0.17
+Proportion with expiration 0.01 Matched: 0.0
+Proportion with expiration 0.05 Matched: 0.014
+Proportion with expiration 0.1 Matched: 0.036
+Proportion with expiration 0.25 Matched: 0.036
+Proportion with expiration 0.5 Matched: 0.042
+
+
+Simulator Starting
+This simulator will involve 1984 pairs
+This simulator will involve 0 altruistic donors
+
+Total time of simulation: 0.641 minutes
+
+
+RESULTS
+
+Number of Pairs Matched: 187
+Number of Pairs Seen: 1984
+Number of Pairs Expired: 1701
+Proportion of Pairs Matched: 0.094
+Proportion of Pairs Expired: 0.857
+Proportion of Pairs Left At End: 0.048
+Pair Average Wait Time: 0.336
+Number of Altruists Matched: 0
+Number of Altruists Seen: 0
+Number of Altruists Expired: 0
+Altruist Average Wait Time: nan
+Proportion with PRA > 0.05 Matched: 0.094
+Proportion with PRA > 0.2 Matched: 0.083
+Proportion with PRA > 0.4 Matched: 0.057
+Proportion with PRA > 0.6 Matched: 0.057
+Proportion with PRA > 0.8 Matched: 0.032
+Proportion with PRA > 0.9 Matched: 0.008
+Proportion of Type O Matched: 0.06
+Proportion of Type A Matched: 0.147
+Proportion of Type B Matched: 0.115
+Proportion of Type AB Matched: 0.256
+Proportion with expiration 0.01 Matched: 0.143
+Proportion with expiration 0.05 Matched: 0.043
+Proportion with expiration 0.1 Matched: 0.046
+Proportion with expiration 0.25 Matched: 0.043
+Proportion with expiration 0.5 Matched: 0.043
+
+
+EXPERIMENT HYPERPARAMETERS
+Number of reps: 5
+Time limit: 20
+Pair arrival rate: 100
+Pair departure rate: 0.8
+Altruist arrival rate: 0
+Altruist departure rate: 0
+Problem Type: ProblemType.SIMPLE
+Batch size: 1
+
+EXPERIMENT RESULTS
+5 Repetitions
+
+Averaged Statistics:
+Average Number of Pairs Matched: 161.2
+Average Number of Pairs Seen: 1961.0
+Average Number of Pairs Expired: 1688.0
+Average Proportion of Pairs Matched: 0.082
+Average Proportion of Pairs Expired: 0.861
+Average Proportion of Pairs Left At End: 0.057
+Average Pair Average Wait Time: 0.4059
+Average Number of Altruists Matched: 0.0
+Average Number of Altruists Seen: 0.0
+Average Number of Altruists Expired: 0.0
+Average Altruist Average Wait Time: nan
+Average Proportion with PRA > 0.05 Matched: 0.082
+Average Proportion with PRA > 0.2 Matched: 0.0722
+Average Proportion with PRA > 0.4 Matched: 0.0469
+Average Proportion with PRA > 0.6 Matched: 0.0469
+Average Proportion with PRA > 0.8 Matched: 0.0255
+Average Proportion with PRA > 0.9 Matched: 0.0052
+Average Proportion of Type O Matched: 0.0487
+Average Proportion of Type A Matched: 0.1292
+Average Proportion of Type B Matched: 0.1233
+Average Proportion of Type AB Matched: 0.1511
+Average Proportion with expiration 0.01 Matched: 0.0468
+Average Proportion with expiration 0.05 Matched: 0.0388
+Average Proportion with expiration 0.1 Matched: 0.0401
+Average Proportion with expiration 0.25 Matched: 0.042
+Average Proportion with expiration 0.5 Matched: 0.0501
+
+Total Time for Experiment: 3.207 minutes
