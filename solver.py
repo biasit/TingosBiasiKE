@@ -18,14 +18,14 @@ class ProblemType(Enum):
 # cycle data structure
 class Cycle:
     def __init__(self, pairs):
-        self.pairs = pairs
+        self.pairs = pairs # indices, not pair objects
         self.size = len(self.pairs)
 
 # chain data structure
 class Chain:
     def __init__(self, altruistic_donor, pairs):
-        self.altruistic_donor = altruistic_donor
-        self.pairs = pairs
+        self.altruistic_donor = altruistic_donor # index, not donor object
+        self.pairs = pairs # indices, not pair object
         self.size = len(self.pairs)
 
 # graph data structure
@@ -46,9 +46,9 @@ class Graph:
 
         for i in range(len(pairs)):
             for j in range(i+1, len(pairs)):
-                if pairs[i][1].is_compatible_with_patient(pairs[j][0]):
+                if pairs[i].donor.is_compatible_with_patient(pairs[j].patient):
                     edges[i].add(j)
-                if pairs[j][1].is_compatible_with_patient(pairs[i][0]):
+                if pairs[j].donor.is_compatible_with_patient(pairs[i].patient):
                     edges[j].add(i)
         
         return edges
@@ -100,7 +100,7 @@ class Graph:
         if problem_type == ProblemType.SIMPLE: # if simple, weights are size of the cycle
             return [c.size for c in cycles]
         elif problem_type == ProblemType.POTENTIALS: # if potentials, weights are size of cycle minus potential of each vertex in cycle
-            return [c.size - sum([pairs[p][0].potential + pairs[p][1].potential for p in c.pairs]) for c in cycles]
+            return [c.size - sum([pairs[p].patient.potential + pairs[p].donor.potential for p in c.pairs]) for c in cycles]
         elif problem_type == ProblemType.FAIRNESS: # if fairness, ... TODO
             return [c.size for c in cycles] # change once fairness is established
 
@@ -113,7 +113,7 @@ class Graph:
             donor = altruistic_donors[d]
 
             # get all elements that could start a chain
-            first_elems = [i for i in range(len(pairs)) if donor.is_compatible_with_patient(pairs[i][0])]
+            first_elems = [i for i in range(len(pairs)) if donor.is_compatible_with_patient(pairs[i].patient)]
 
             # function to find all chains of size at most 10
             def get_chains(start, past, found):
@@ -140,7 +140,7 @@ class Graph:
         if problem_type == ProblemType.SIMPLE: # if simple, weights are size of the cycle
             return [c.size for c in chains]
         elif problem_type == ProblemType.POTENTIALS: # if potentials, weights are size of chain minus potential of each vertex in cycle and minus potential of donor * constant
-            return [c.size - sum([pairs[p][0].potential + pairs[p][1].potential for p in c.pairs]) - 2*c.altruistic_donor.potential for c in chains]
+            return [c.size - sum([pairs[p][0].potential + pairs[p][1].potential for p in c.pairs]) - 3*c.altruistic_donor.potential for c in chains]
         elif problem_type == ProblemType.FAIRNESS: # if fairness, ... TODO
             return [c.size for c in chains] # change once fairness is established
 
@@ -193,12 +193,12 @@ def solve_kidney_matching(pairs, problem_type, altruistic_donors = []):
     print(f'Objective Value: {value(problem.objective)}')
 
     # gets (indices of) pairs that have been matched
-    matched = [p for c in range(len(cycle_vars)) for p in cycles[c].pairs if value(cycle_vars[c]) == 1]
-    matched = matched + [p for c in range(len(chain_vars)) for p in chains[c].pairs if value(chain_vars[c]) == 1]
+    matched = [pairs[p] for c in range(len(cycle_vars)) for p in cycles[c].pairs if value(cycle_vars[c]) == 1]
+    matched = matched + [pairs[p] for c in range(len(chain_vars)) for p in chains[c].pairs if value(chain_vars[c]) == 1]
     print(f'Number of Matched Pairs: {len(matched)}')
 
     # get (indices of) altruistic donors that have been used
-    used_altruistic_donors = [d for d in range(len(chain_vars)) if value(chain_vars[d]) == 1]
+    used_altruistic_donors = [altruistic_donors[chains[d].altruistic_donor] for d in range(len(chain_vars)) if value(chain_vars[d]) == 1]
     print(f'Number of Altruistic Donors Used: {len(used_altruistic_donors)}')
 
     # check to make sure no pair or donor was used twice
@@ -207,7 +207,7 @@ def solve_kidney_matching(pairs, problem_type, altruistic_donors = []):
 
     return matched, used_altruistic_donors
 
-solve_kidney_matching(all_pairs, ProblemType.SIMPLE, altruistic_donors=[generate_patient_donor_pair()[1] for _ in range(5)])
+solve_kidney_matching(all_pairs, ProblemType.SIMPLE, altruistic_donors=[generate_patient_donor_pair().donor for _ in range(5)])
 
 ### code for greedy approach 
 # def greedy_solve_kidney_matching(new_pair, existing_pairs, problem_type):
