@@ -37,7 +37,7 @@ def calculate_average_waiting_time(vertices):       # average waiting time for p
     
     total_wait_time = 0
     for vertex in vertices:
-        total_wait_time += vertex.match_time
+        total_wait_time += (vertex.match_time - vertex.arrival_time)
     
     return total_wait_time / len(vertices)
 
