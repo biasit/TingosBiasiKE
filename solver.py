@@ -59,29 +59,20 @@ class Graph:
     def find_cycles(pairs, edges):
         cycles = set()
 
+        # loop over all edges
         for i in range(len(pairs)):
-            for j in range(i+1, len(pairs)):
+            for j in edges[i]:
                 # checks for 2-cycles
-                if j in edges[i] and i in edges[j]: 
-                    cycles.add((i, j))
+                if i in edges[j]: 
+                    cycles.add((min(i, j), max(i,j)))
 
-                # check for 3-cycles in one direction
-                if j in edges[i]:
-                    for k in range(len(pairs)):
-                        if k in edges[j] and i in edges[k]:
-                            c = [i, j, k]
-                            ind = c.index(min(c))
-                            c = c[ind:] + c[:ind]
-                            cycles.add(tuple(c))
-
-                # check for 3-cycles in other direction
-                if i in edges[j]:
-                    for k in range(len(pairs)):
-                        if k in edges[i] and j in edges[k]:
-                            c = [j, i, k]
-                            ind = c.index(min(c))
-                            c = c[ind:] + c[:ind]
-                            cycles.add(tuple(c))
+                # check for 3-cycles
+                for k in edges[j]:
+                    if i in edges[k]:
+                        c = [i, j, k]
+                        ind = c.index(min(c))
+                        c = c[ind:] + c[:ind]
+                        cycles.add(tuple(c))
 
         cycles = list(cycles)
         cycles = [Cycle(list(c)) for c in cycles]
