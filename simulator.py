@@ -8,12 +8,13 @@ But it was written in Java, and it didn't account for altruistic donors.
 
 from collections import deque # deques are always nice, hopefully will provide a slight speed up
 import heapq                  # just priority queue functionality, will allow us to order patients
+
 import random
 import math
 from enum import Enum
 
 from patient_donor_pairs import generate_patient_donor_pair, generate_altruistic_donor, Donor, Pair
-from solver import ProblemType, solve_kidney_matching
+from solver import solve_kidney_matching
 
 # Will likely want to introduce a seed at some point
 class ExponentialDistribution():
@@ -28,19 +29,20 @@ class Vertex(Enum):
     Pair = 1
     Altruist = 2
 
-
 class DynamicSimulator():
-    def __init__(self, pair_arrival_rate, pair_survival_rate, altruist_arrival_rate, altruist_departure_rate, 
-                    problem_type):
+    def __init__(self, pair_arrival_rate, pair_departure_rate, altruist_arrival_rate, altruist_departure_rate, 
+                    problem_type, batch_size=1):
         self.pair_arrival_rate = pair_arrival_rate           # Poisson(arrival_rate) number of pairs arriving every time period
-        self.pair_survival_rate = pair_survival_rate         # Exp(survival_rate) - lifespan of a pair in the donor pool
+        self.pair_departure_rate = pair_departure_rate         # Exp(survival_rate) - lifespan of a pair in the donor pool
         self.altruist_arrival_rate = altruist_arrival_rate
         self.altruist_departure_rate = altruist_departure_rate
 
-        self.problem_type = problem_type    # solver problem type
+        self.problem_type = problem_type                # solver problem type
+        self.batch_size = batch_size                    # If Batch frequency, use batch_size
+
 
         self.pair_arrival_generator = ExponentialDistribution(self.pair_arrival_rate)
-        self.pair_survival_generator = ExponentialDistribution(self.pair_survival_rate)
+        self.pair_survival_generator = ExponentialDistribution(self.pair_departure_rate)
         self.altruist_arrival_generator = ExponentialDistribution(self.altruist_arrival_rate)
         self.altruist_departure_generator = ExponentialDistribution(self.altruist_departure_rate)
 
@@ -50,6 +52,7 @@ class DynamicSimulator():
 
             time_limit: how long to run the simulation for (this many time periods)
         """
+        entry_count = 0               # heapq breaks without the entry_count for ties
 
         print("Simulator Starting")
 
@@ -61,7 +64,11 @@ class DynamicSimulator():
         while True:
             # Get the arrival and departure time from exponential distributions
             entry_time = curr_time + self.pair_arrival_generator.draw()
-            exit_time = entry_time + self.pair_survival_generator.draw()
+            if self.pair_departure_rate > 0:
+                exit_time = entry_time + self.pair_survival_generator.draw()
+            else:
+                exit_time = float('inf')
+
             curr_time = entry_time
             
             if curr_time > time_limit:  # we have reached the limit of our time
@@ -108,17 +115,22 @@ class DynamicSimulator():
                 departure_times.append((Vertex.Altruist, altruist_departure_times[0]))
                 altruist_arrival_times.popleft()
                 altruist_departure_times.popleft()
-        arrival_times.extend(pair_arrival_times)
-        arrival_times.extend(altruist_arrival_times)
-        departure_times.extend(pair_departure_times)
-        arrival_times.extend(altruist_departure_times)
-
+        while len(pair_arrival_times) > 0:
+            arrival_times.append((Vertex.Pair, pair_arrival_times[0]))
+            departure_times.append((Vertex.Pair, pair_departure_times[0]))      # not that in case tie with altruist, departure times of pairs come first
+            pair_arrival_times.popleft()
+            pair_departure_times.popleft()
+        while len(altruist_arrival_times) > 0:
+            arrival_times.append((Vertex.Altruist, altruist_arrival_times[0]))
+            departure_times.append((Vertex.Altruist, altruist_departure_times[0]))
+            altruist_arrival_times.popleft()
+            altruist_departure_times.popleft()
 
         # Track the current state of the pool
         pair_pool = set()
         altruist_pool = set()
 
-        vertices_by_exit_time = []  # this will be a priority queue of tuples (exit_time, (Patient, Donor) pair or altruistic donor)
+        vertices_by_exit_time = []  # this will be a priority queue of tuples (exit_time, entry_count, (Patient, Donor) pair or altruistic donor)
         all_matched_pairs = set()
         all_matched_altruists = set()
         all_expired_pairs = set()
@@ -134,18 +146,17 @@ class DynamicSimulator():
 
         # Simulate everything!
         curr_time = 0.0 
+        curr_batch = 0              # if matching with batches, matches whenever curr_batch >= self.batch_size
         while True:
             # Remove vertices between the current time and the next entry time - these go unmatched for now, we can change this...
             if len(arrival_times) == 0 :
                 next_entry_time = float('inf')
             else:
-                next_entry = arrival_times[0]
-                next_entry_type = next_entry[0]             # "A" for altruist, "P" for pair
-                next_entry_time = next_entry[1]
+                next_entry_time = arrival_times[0][1]
 
             while len(vertices_by_exit_time) != 0 and min(vertices_by_exit_time)[0] <= next_entry_time:  # a vertex expires before next vertex arrives
                 # Get the vertex that is leaving and make sure it hasn't been matched already
-                critical_vertex = heapq.heappop(vertices_by_exit_time)[1]
+                critical_vertex = heapq.heappop(vertices_by_exit_time)[2]
                 
                 if type(critical_vertex) == Pair:
                     if critical_vertex not in pair_pool:
@@ -183,6 +194,7 @@ class DynamicSimulator():
             # Update the number of pairs that have arrived
             total_pairs_seen += new_pair_arrivals
             total_altruists_seen += new_altruist_arrivals
+            curr_batch += (new_pair_arrivals + new_altruist_arrivals)
 
             # Generate the new pairs
             new_pairs = set()
@@ -191,11 +203,14 @@ class DynamicSimulator():
                 curr_pair.arrival_time = curr_time 
 
                 # Obtain departure time for pair
-                departure_time = departure_times.popleft()
+                departure_entry = departure_times.popleft()
+                assert(departure_entry[0] == Vertex.Pair)       # quick sanity check
+                departure_time = departure_entry[1]
                 curr_pair.departure_time = departure_time
 
                 # track when it will be leaving the simulation
-                heapq.heappush(vertices_by_exit_time, (departure_time, curr_pair))
+                heapq.heappush(vertices_by_exit_time, (departure_time, entry_count, curr_pair))
+                entry_count += 1
 
                 new_pairs.add(curr_pair)
 
@@ -206,35 +221,44 @@ class DynamicSimulator():
                 curr_donor.arrival_time = curr_time
 
                 # Obtain departure time
-                departure_time = departure_times.popleft()  # in case of tie, departure_time of donor is after pair...
+                departure_entry = departure_times.popleft()  # in case of tie between pair and donor, departure_time of donor is after pair...
+                assert(departure_entry[0] == Vertex.Altruist)       # quick sanity check
+                departure_time = departure_entry[1]
                 curr_donor.departure_time = departure_time
 
                 # track when it will be leaving the simulation
-                heapq.heappush(vertices_by_exit_time, (departure_time, curr_donor))
+                heapq.heappush(vertices_by_exit_time, (departure_time, entry_count, curr_donor))
+                entry_count += 1
 
                 new_altruists.add(curr_donor)
 
-            # Add the new vertices to the pool
+            # Add the new vertices to the pools
             pair_pool |= new_pairs
             altruist_pool |= new_altruists
 
-            # Undergo matching algorithm
-            matched_pairs, matched_donors = solve_kidney_matching(list(pair_pool), self.problem_type, altruistic_donors=list(altruist_pool))
+            # Undergo matching algorithm if necessary
+            matched_pairs = None
+            matched_donors = None
+            if curr_batch >= self.batch_size:
+                matched_pairs, matched_donors = solve_kidney_matching(list(pair_pool), list(altruist_pool), self.problem_type, curr_time)
+                curr_batch = 0
+
 
             # Remove any matched pairs
-            for pair in matched_pairs:
-                pair_pool.remove(pair)
-                all_matched_pairs.add(pair)
+            if matched_pairs is not None:
+                for pair in matched_pairs:
+                    pair_pool.remove(pair)
+                    all_matched_pairs.add(pair)
+                total_pairs_matched += len(matched_pairs)
+                
             
             # Remove any matched donors
-            for donor in matched_donors:
-                altruist_pool.remove(donor)
-                all_matched_altruists.add(donor)
+            if matched_donors is not None:
+                for donor in matched_donors:
+                    altruist_pool.remove(donor)
+                    all_matched_altruists.add(donor)
+                total_altruists_matched += len(matched_donors)
 
-            # Update stats
-            total_pairs_matched += len(matched_pairs)
-            total_altruists_matched += len(matched_donors)
-    
         print()
         print("RESULTS")
         print("Total pairs matched:", total_pairs_matched)
@@ -247,9 +271,3 @@ class DynamicSimulator():
 
         return all_matched_pairs, all_expired_pairs, all_matched_altruists, all_expired_altruists
 
-
-
-# Example usage of simulator
-
-simulator = DynamicSimulator(100, 1, 10, 1, ProblemType.SIMPLE)
-m_pairs, e_pairs = simulator.run(100)

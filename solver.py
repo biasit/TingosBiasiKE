@@ -1,4 +1,4 @@
-from pulp import LpProblem, LpVariable, LpMaximize, value, lpSum, lpDot
+from pulp import LpProblem, LpVariable, LpMaximize, value, lpSum, lpDot, PULP_CBC_CMD
 from enum import Enum
 from math import sqrt
 
@@ -86,7 +86,7 @@ class Graph:
         cycles = list(cycles)
         cycles = [Cycle(list(c)) for c in cycles]
 
-        print(f'Number of Cycles in Graph: {len(cycles)}')
+        # print(f'Number of Cycles in Graph: {len(cycles)}')
         return cycles
 
     # function that establishes the optimization weights for each cycle based on the problem type
@@ -127,7 +127,7 @@ class Graph:
             for first_elem in first_elems:
                 get_chains(first_elem, [], set())
 
-        print(f'Number of Chains in Graph: {len(chains)}')
+        # print(f'Number of Chains in Graph: {len(chains)}')
         return chains
 
     def find_chain_weights(problem_type, pairs, altruistic_donors, chains, curr_time):
@@ -180,20 +180,20 @@ def solve_kidney_matching(pairs, altruistic_donors, problem_type, curr_time):
     problem += lpDot([cycle_vars[i] for i in range(len(cycle_vars))] + [chain_vars[i] for i in range(len(chain_vars))], cycle_weights + chain_weights)
 
     # solve for optimal solution
-    print('Solving')
-    problem.solve()
+    # print('Solving')
+    problem.solve(PULP_CBC_CMD(msg=0))
 
     # prints out optimal objective value
-    print(f'Objective Value: {value(problem.objective)}')
+    # print(f'Objective Value: {value(problem.objective)}')
 
     # gets (indices of) pairs that have been matched
     matched = [pairs[p] for c in range(len(cycle_vars)) for p in cycles[c].pairs if value(cycle_vars[c]) == 1]
     matched = matched + [pairs[p] for c in range(len(chain_vars)) for p in chains[c].pairs if value(chain_vars[c]) == 1]
-    print(f'Number of Matched Pairs: {len(matched)}')
+    # print(f'Number of Matched Pairs: {len(matched)}')
 
     # get (indices of) altruistic donors that have been used
     used_altruistic_donors = [altruistic_donors[chains[d].altruistic_donor] for d in range(len(chain_vars)) if value(chain_vars[d]) == 1]
-    print(f'Number of Altruistic Donors Used: {len(used_altruistic_donors)}')
+    # print(f'Number of Altruistic Donors Used: {len(used_altruistic_donors)}')
 
     # check to make sure no pair or donor was used twice
     assert len(matched) == len(set(matched))
@@ -201,7 +201,8 @@ def solve_kidney_matching(pairs, altruistic_donors, problem_type, curr_time):
 
     return matched, used_altruistic_donors
 
-solve_kidney_matching(all_pairs, [generate_patient_donor_pair().donor for _ in range(5)], ProblemType.FAIRNESS, 5)
+if __name__ == "__main__":
+    solve_kidney_matching(all_pairs, [generate_patient_donor_pair().donor for _ in range(5)], ProblemType.FAIRNESS, 5)
 
 ### code for greedy approach 
 # def greedy_solve_kidney_matching(new_pair, existing_pairs, problem_type):
