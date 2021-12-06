@@ -75,6 +75,15 @@ class Donor():
         }
         return blood_type_to_potential[blood_type]
 
+class Pair():
+    def __init__(self, patient, donor):
+        self.patient = patient
+        self.donor = donor
+
+        # Statistics for a particular pair for simulation purposes
+        self.arrival_time = -1
+        self.departure_time = -1
+
 # A function for generating a new patient and donor pair
 def generate_patient_donor_pair():
     # Continue until a valid pair is generated
@@ -118,7 +127,7 @@ def generate_patient_donor_pair():
 
 
 
-    return patient, donor
+    return Pair(patient, donor)
 
 
 # Read in the distribution of pairs from the NKR Pool Composition (2010-2014)'
