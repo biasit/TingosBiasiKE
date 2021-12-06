@@ -60,6 +60,10 @@ class Donor():
         self.blood_type = blood_type
         self.virtual_pra = virtual_pra
         self.potential = Donor.get_potential(self.blood_type)
+
+        # For simulation, in case this is an altruistic donor
+        self.arrival_time = -1
+        self.departure_time = -1
     
     # Once again, Donor's virtual pra must be higher than the patient's PRA to be compatible
     def is_compatible_with_patient(self, patient):
@@ -125,9 +129,27 @@ def generate_patient_donor_pair():
         donor = Donor(abo_pair[1], virtual_pra)
         break
 
-
-
     return Pair(patient, donor)
+
+# Generate an altruistic donor
+def generate_altruistic_donor():
+    # Assume altruistic donor is drawn from general population
+    ran_donor = random.random()
+    
+    # Base off of nationwide distribution from https://stanfordbloodcenter.org/donate-blood/blood-donation-facts/blood-types/
+    if ran_donor < 0.44:
+        blood_type = BloodType.O
+    elif ran_donor < 0.86:
+        blood_type = BloodType.A
+    elif ran_donor < 0.96:
+        blood_type = BloodType.B
+    else:
+        blood_type = BloodType.AB
+    
+    # Generate virtual pra of donor
+    virtual_pra = random.random() # uniform between 0 and 1
+
+    return Donor(blood_type, virtual_pra)
 
 
 # Read in the distribution of pairs from the NKR Pool Composition (2010-2014)'
