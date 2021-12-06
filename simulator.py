@@ -13,6 +13,7 @@ import math
 from enum import Enum
 
 from patient_donor_pairs import generate_patient_donor_pair, generate_altruistic_donor, Donor, Pair
+from solver import ProblemType, solve_kidney_matching
 
 # Will likely want to introduce a seed at some point
 class ExponentialDistribution():
@@ -29,12 +30,14 @@ class Vertex(Enum):
 
 
 class DynamicSimulator():
-    def __init__(self, pair_arrival_rate, pair_survival_rate, altruist_arrival_rate, altruist_departure_rate, matching_algorithm):
+    def __init__(self, pair_arrival_rate, pair_survival_rate, altruist_arrival_rate, altruist_departure_rate, 
+                    problem_type):
         self.pair_arrival_rate = pair_arrival_rate           # Poisson(arrival_rate) number of pairs arriving every time period
         self.pair_survival_rate = pair_survival_rate         # Exp(survival_rate) - lifespan of a pair in the donor pool
         self.altruist_arrival_rate = altruist_arrival_rate
         self.altruist_departure_rate = altruist_departure_rate
-        self.matching_algorithm = matching_algorithm
+
+        self.problem_type = problem_type    # solver problem type
 
         self.pair_arrival_generator = ExponentialDistribution(self.pair_arrival_rate)
         self.pair_survival_generator = ExponentialDistribution(self.pair_survival_rate)
@@ -211,35 +214,42 @@ class DynamicSimulator():
 
                 new_altruists.add(curr_donor)
 
-            # Match the new vertices
-            matched_pairs = self.matching_algorithm(new_pairs, pair_pool)
-
             # Add the new vertices to the pool
             pair_pool |= new_pairs
+            altruist_pool |= new_altruists
+
+            # Undergo matching algorithm
+            matched_pairs, matched_donors = solve_kidney_matching(list(pair_pool), self.problem_type, altruistic_donors=list(altruist_pool))
 
             # Remove any matched pairs
             for pair in matched_pairs:
                 pair_pool.remove(pair)
                 all_matched_pairs.add(pair)
+            
+            # Remove any matched donors
+            for donor in matched_donors:
+                altruist_pool.remove(donor)
+                all_matched_altruists.add(donor)
 
             # Update stats
             total_pairs_matched += len(matched_pairs)
+            total_altruists_matched += len(matched_donors)
     
         print()
         print("RESULTS")
-        print("Total matched:", total_pairs_matched)
-        print("Total seen:", total_pairs_seen)
-        print("Total expired:", total_pairs_expired)
+        print("Total pairs matched:", total_pairs_matched)
+        print("Total pairs seen:", total_pairs_seen)
+        print("Total pairs expired:", total_pairs_expired)
+        print()
+        print("Total altruists matched:", total_altruists_matched)
+        print("Total altruists seen:", total_altruists_seen)
+        print("Total altruists expired:", total_altruists_expired)
 
-        return all_matched_pairs, all_expired_pairs
+        return all_matched_pairs, all_expired_pairs, all_matched_altruists, all_expired_altruists
 
 
 
 # Example usage of simulator
-def matching_algorithm(new_pairs, pool):
-    new_pool = pool | new_pairs
 
-    return [random.choice(list(new_pool))]
-
-simulator = DynamicSimulator(100, 1, matching_algorithm)
+simulator = DynamicSimulator(100, 1, 10, 1, ProblemType.SIMPLE)
 m_pairs, e_pairs = simulator.run(100)
