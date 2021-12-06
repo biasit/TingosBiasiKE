@@ -64,6 +64,8 @@ class Donor():
         # For simulation, in case this is an altruistic donor
         self.arrival_time = -1
         self.departure_time = -1
+        self.was_matched = False
+        self.match_time = -1
     
     # Once again, Donor's virtual pra must be higher than the patient's PRA to be compatible
     def is_compatible_with_patient(self, patient):
@@ -87,6 +89,8 @@ class Pair():
         # Statistics for a particular pair for simulation purposes
         self.arrival_time = -1
         self.departure_time = -1
+        self.was_matched = False
+        self.match_time = -1
 
 # A function for generating a new patient and donor pair
 def generate_patient_donor_pair():
